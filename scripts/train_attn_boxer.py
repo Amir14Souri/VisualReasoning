@@ -3,7 +3,7 @@ import logging
 import argparse
 from pathlib import Path
 from datetime import datetime
-from constants import DEVICE
+from constants import DEVICE, setup_logging
 from torch.utils.data import DataLoader
 
 from model.attn_boxer import AttentionBoxer
@@ -13,27 +13,12 @@ from data.dataset import SyntheticVQADataset
 from data.utils import custom_collate
 
 
-def setup_logging(log_file):
-    Path(log_file).parent.mkdir(parents=True, exist_ok=True)
-
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s | %(levelname)s | %(message)s",
-        handlers=[logging.FileHandler(log_file), logging.StreamHandler()],
-    )
-    logging.getLogger("httpx").setLevel(logging.WARNING)
-    logging.getLogger("httpcore").setLevel(logging.WARNING)
-    logging.getLogger("urllib3").setLevel(logging.WARNING)
-    logging.getLogger("requests").setLevel(logging.WARNING)
-
-
 def main(args):
     now = datetime.now()
     timestamp = now.strftime("%Y%m%d_%H%M%S")
     save_dir = Path(args.save_dir) / timestamp
     Path(save_dir).mkdir(parents=True, exist_ok=True)
 
-    # wandb.init(project="attn-boxer", name="train_run)
     setup_logging(save_dir / "train.log")
     logging.info("Starting training...")
 

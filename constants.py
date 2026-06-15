@@ -1,4 +1,6 @@
 import torch
+import logging
+from pathlib import Path
 
 # Seed
 SEED = 42
@@ -36,3 +38,18 @@ POSITIONS = {
     "bottom": (112, 187),
     "bottom-right": (187, 187),
 }
+
+
+# Logging setup
+def setup_logging(log_file):
+    Path(log_file).parent.mkdir(parents=True, exist_ok=True)
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s | %(levelname)s | %(message)s",
+        handlers=[logging.FileHandler(log_file), logging.StreamHandler()],
+    )
+    logging.getLogger("httpx").setLevel(logging.WARNING)
+    logging.getLogger("httpcore").setLevel(logging.WARNING)
+    logging.getLogger("urllib3").setLevel(logging.WARNING)
+    logging.getLogger("requests").setLevel(logging.WARNING)
