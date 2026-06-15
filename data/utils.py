@@ -1,3 +1,5 @@
+import torch
+
 def custom_collate(batch):
     images = [item["image"] for item in batch]
     questions = [item["question"] for item in batch]
