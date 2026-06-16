@@ -1,4 +1,5 @@
 import torch
+import random
 from constants import IMG_SIZE, PATCH_SIZE
 from PIL import ImageDraw
 
@@ -80,3 +81,15 @@ def center_in_target(pred, gt):
     cx = (pred[0] + pred[2]) / 2
     cy = (pred[1] + pred[3]) / 2
     return gt[0] <= cx <= gt[2] and gt[1] <= cy <= gt[3]
+
+
+def random_box():
+    w = random.randint(32, 64)
+    h = random.randint(32, 64)
+    x = random.randint(0, 224 - w)
+    y = random.randint(0, 224 - h)
+    return [x, y, x + w, y + h]
+
+
+def center_box():
+    return [72, 72, 152, 152]
