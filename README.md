@@ -106,3 +106,7 @@ Two images for all 200 test data are saved in `--save-dir`: One with model-predi
 | Overall | 79.5% | 81.5% | 67.5% |
 | Question Family<br>`Attribute` | 65.3% | 71.3% | 53.5% |
 | Question Family<br>`Text-in-Shape` | 93.9% | 91.9% | 81.8% |
+
+It seems like marking the ground-truth box on the image is not helping the LLM at all. It might be because of the tight boxes around objects, and perhaps the box is not letting the model see some details it wants.
+
+Comparing with raw images, marking attention-predicted boxes on the image does a tiny improvement to the overall accuracy (2%). Values say that it enhances reasoning in attribute questions better, with an approximately 6% improvement, but it does no good to the text-in-shape questions which are experiencing a 2% decrease in accuracy.
