@@ -28,6 +28,7 @@ def main(args):
     test_loader = DataLoader(
         test_set, args.batch_size, shuffle=False, collate_fn=custom_collate
     )
+    logging.info("Test data loader initialized.")
 
     evaluator = TestEvaluator(model, DEVICE, k=args.k, save_dir=save_dir)
     results = evaluator.run(test_loader)

@@ -1,9 +1,11 @@
-import pandas as pd
-from collections import defaultdict
 import torch
 import logging
 import json
+import pandas as pd
 from tqdm import tqdm
+from collections import defaultdict
+
+from constants import save_json
 from data.clip_wrapper import CLIPExtractor
 from evaluation.utils import (
     heatmap_to_bbox,
@@ -12,7 +14,6 @@ from evaluation.utils import (
     random_box,
     center_box,
 )
-from constants import save_json
 
 
 class TestEvaluator:
@@ -30,12 +31,12 @@ class TestEvaluator:
         results = defaultdict(list)
 
         with torch.no_grad():
-            for sample in tqdm(test_loader, desc="Testing"):
-                images = sample["images"]
-                gt_boxes = sample["bboxes"]
-                families = sample["families"]
+            for batch in tqdm(test_loader, desc="Testing"):
+                images = batch["images"]
+                gt_boxes = batch["bboxes"]
+                families = batch["families"]
 
-                patches, q_feat = self.clip.extract(images, sample["target_phrases"])
+                patches, q_feat = self.clip.extract(images, batch["target_phrases"])
 
                 heatmaps = self.model(patches, q_feat)
 

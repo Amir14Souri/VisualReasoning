@@ -28,6 +28,7 @@ def main(args):
     val_loader = DataLoader(
         val_set, args.batch_size, shuffle=False, collate_fn=custom_collate
     )
+    logging.info("Validation data loader initialized.")
 
     tuner = KTuner(model, DEVICE, save_dir)
     all_data = tuner.collect(val_loader)

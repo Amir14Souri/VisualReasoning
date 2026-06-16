@@ -1,6 +1,6 @@
-import logging
 import torch
 import argparse
+import logging
 from datetime import datetime
 from pathlib import Path
 from torch.utils.data import DataLoader
@@ -28,6 +28,7 @@ def main(args):
     test_loader = DataLoader(
         test_set, args.batch_size, shuffle=False, collate_fn=custom_collate
     )
+    logging.info("Test data loader initialized.")
 
     evaluator = DownstreamVQAEvaluator(model, k=args.k, save_dir=save_dir)
     evaluator.run(test_loader)

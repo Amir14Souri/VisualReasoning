@@ -1,4 +1,3 @@
-import os
 import torch
 import logging
 from tqdm import tqdm
@@ -24,9 +23,9 @@ class KTuner:
         all_data = []
 
         with torch.no_grad():
-            for sample in tqdm(val_loader, desc="Collecting"):
+            for batch in tqdm(val_loader, desc="Collecting"):
                 patches, q_feat = self.clip.extract(
-                    sample["images"], sample["target_phrases"]
+                    batch["images"], batch["target_phrases"]
                 )
                 heatmaps = self.model(patches, q_feat)
 
@@ -34,8 +33,8 @@ class KTuner:
                     all_data.append(
                         {
                             "heatmap": heatmaps[i].cpu(),
-                            "bbox": sample["bboxes"][i],
-                            "image": sample["images"][i],
+                            "bbox": batch["bboxes"][i],
+                            "image": batch["images"][i],
                         }
                     )
 

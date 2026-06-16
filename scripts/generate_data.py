@@ -1,6 +1,6 @@
 import argparse
-from data.generator import DataGenerator
 from constants import TRAIN_SIZE, VAL_SIZE, TEST_SIZE
+from data.generator import DataGenerator
 
 
 def main(args):
@@ -14,7 +14,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
-        "--data_dir",
+        "--data-dir",
         type=str,
         default="data/synthetic",
         help="Directory to save generated data",

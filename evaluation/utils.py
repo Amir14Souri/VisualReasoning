@@ -1,7 +1,7 @@
 import torch
 import random
-from constants import IMG_SIZE, PATCH_SIZE, SEED
 from PIL import ImageDraw
+from constants import IMG_SIZE, PATCH_SIZE, SEED
 
 
 def heatmap_to_bbox(heatmap, k=9):

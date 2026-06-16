@@ -1,14 +1,13 @@
-from collections import defaultdict
-
-import numpy as np
 import torch
+import numpy as np
 from tqdm import tqdm
+from collections import defaultdict
 
 from constants import DEVICE, save_json
 from data.clip_wrapper import CLIPExtractor
 from downstream.utils import normalize_answer, draw_box
-from evaluation.utils import heatmap_to_bbox
 from downstream.qwen_client import QwenClient
+from evaluation.utils import heatmap_to_bbox
 
 
 class DownstreamVQAEvaluator:
@@ -26,25 +25,25 @@ class DownstreamVQAEvaluator:
         start = 0
 
         with torch.no_grad():
-            for sample in tqdm(test_loader, desc="Downstream VQA"):
-                images = sample["images"]
-                questions = sample["questions"]
-                gt_answers = [normalize_answer(a) for a in sample["answers"]]
-                families = sample["families"]
+            for batch in tqdm(test_loader, desc="Downstream VQA"):
+                images = batch["images"]
+                questions = batch["questions"]
+                gt_answers = [normalize_answer(a) for a in batch["answers"]]
+                families = batch["families"]
 
                 self._evaluate_full(questions, images, gt_answers, families)
                 self._evaluate_attn(
                     questions,
                     images,
-                    sample["target_phrases"],
+                    batch["target_phrases"],
                     gt_answers,
                     families,
                     start,
                 )
                 self._evaluate_oracle(
-                    questions, images, sample["bboxes"], gt_answers, families, start
+                    questions, images, batch["bboxes"], gt_answers, families, start
                 )
-                start += len(sample)
+                start += len(batch)
 
         save_json(self.results, self.save_dir / "detailed_results.json")
         return self.results

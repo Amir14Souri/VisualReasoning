@@ -1,5 +1,5 @@
-from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
 import torch
+from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
 
 
 class QwenClient:

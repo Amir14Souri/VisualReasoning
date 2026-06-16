@@ -1,11 +1,11 @@
 import torch
-import logging
 import argparse
-from pathlib import Path
+import logging
 from datetime import datetime
-from constants import DEVICE, setup_logging
+from pathlib import Path
 from torch.utils.data import DataLoader
 
+from constants import DEVICE, setup_logging
 from model.attn_boxer import AttentionBoxer
 from model.loss import TotalLoss
 from training.trainer import Trainer

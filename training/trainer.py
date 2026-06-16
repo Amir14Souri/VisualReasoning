@@ -29,12 +29,12 @@ class Trainer:
         self.model.train()
         train_loss = 0
 
-        for sample in tqdm(train_loader, desc=f"Epoch {epoch+1}", leave=False):
+        for batch in tqdm(train_loader, desc=f"Epoch {epoch+1}", leave=False):
             patches, q_feat = self.clip.extract(
-                sample["images"], sample["target_phrases"]
+                batch["images"], batch["target_phrases"]
             )
             heatmaps = self.model(patches, q_feat)
-            target = bbox_to_patch_mask(sample["bboxes"]).to(self.device)
+            target = bbox_to_patch_mask(batch["bboxes"]).to(self.device)
 
             loss = self.loss_fn(heatmaps, target)
             self.optimizer.zero_grad()
@@ -50,12 +50,12 @@ class Trainer:
         val_loss = 0
 
         with torch.no_grad():
-            for sample in tqdm(val_loader, desc=f"Validation {epoch+1}", leave=False):
+            for batch in tqdm(val_loader, desc=f"Validation {epoch+1}", leave=False):
                 patches, q_feat = self.clip.extract(
-                    sample["images"], sample["target_phrases"]
+                    batch["images"], batch["target_phrases"]
                 )
                 heatmaps = self.model(patches, q_feat)
-                target = bbox_to_patch_mask(sample["bboxes"]).to(self.device)
+                target = bbox_to_patch_mask(batch["bboxes"]).to(self.device)
 
                 loss = self.loss_fn(heatmaps, target)
                 val_loss += loss.item()
