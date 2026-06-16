@@ -1,0 +1,35 @@
+2026-06-17 01:33:43,935 | INFO | Starting training...
+2026-06-17 01:33:44,655 | INFO | Train and validation data loaders initialized.
+2026-06-17 01:34:06,421 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-17 01:34:26,213 | INFO | Epoch  1: Train Loss=0.73076, Val Loss=0.70728
+2026-06-17 01:34:34,936 | INFO | Epoch  2: Train Loss=0.68432, Val Loss=0.69256
+2026-06-17 01:34:43,698 | INFO | Epoch  3: Train Loss=0.65688, Val Loss=0.68354
+2026-06-17 01:34:52,283 | INFO | Epoch  4: Train Loss=0.63568, Val Loss=0.66724
+2026-06-17 01:35:00,833 | INFO | Epoch  5: Train Loss=0.61929, Val Loss=0.66252
+2026-06-17 01:35:09,567 | INFO | Epoch  6: Train Loss=0.60695, Val Loss=0.65081
+2026-06-17 01:35:18,144 | INFO | Epoch  7: Train Loss=0.59788, Val Loss=0.64933
+2026-06-17 01:35:26,462 | INFO | Epoch  8: Train Loss=0.58695, Val Loss=0.64397
+2026-06-17 01:35:34,971 | INFO | Epoch  9: Train Loss=0.58194, Val Loss=0.64160
+2026-06-17 01:35:43,342 | INFO | Epoch 10: Train Loss=0.57741, Val Loss=0.63663
+2026-06-17 01:35:51,661 | INFO | Epoch 11: Train Loss=0.57362, Val Loss=0.63217
+2026-06-17 01:36:00,046 | INFO | Epoch 12: Train Loss=0.57133, Val Loss=0.63140
+2026-06-17 01:36:08,356 | INFO | Epoch 13: Train Loss=0.56828, Val Loss=0.62973
+2026-06-17 01:36:16,732 | INFO | Epoch 14: Train Loss=0.56718, Val Loss=0.63075
+2026-06-17 01:36:25,087 | INFO | Epoch 15: Train Loss=0.56402, Val Loss=0.62570
+2026-06-17 01:36:33,393 | INFO | Epoch 16: Train Loss=0.56206, Val Loss=0.62999
+2026-06-17 01:36:41,763 | INFO | Epoch 17: Train Loss=0.56193, Val Loss=0.62557
+2026-06-17 01:36:50,118 | INFO | Epoch 18: Train Loss=0.56205, Val Loss=0.62944
+2026-06-17 01:36:58,494 | INFO | Epoch 19: Train Loss=0.56156, Val Loss=0.62432
+2026-06-17 01:37:06,823 | INFO | Epoch 20: Train Loss=0.55846, Val Loss=0.62446
+2026-06-17 01:37:15,258 | INFO | Epoch 21: Train Loss=0.55511, Val Loss=0.62132
+2026-06-17 01:37:23,618 | INFO | Epoch 22: Train Loss=0.55527, Val Loss=0.62297
+2026-06-17 01:37:31,988 | INFO | Epoch 23: Train Loss=0.55481, Val Loss=0.62226
+2026-06-17 01:37:40,410 | INFO | Epoch 24: Train Loss=0.55235, Val Loss=0.62596
+2026-06-17 01:37:48,798 | INFO | Epoch 25: Train Loss=0.55359, Val Loss=0.62524
+2026-06-17 01:37:57,134 | INFO | Epoch 26: Train Loss=0.55464, Val Loss=0.62224
+2026-06-17 01:38:05,452 | INFO | Epoch 27: Train Loss=0.55244, Val Loss=0.62554
+2026-06-17 01:38:13,827 | INFO | Epoch 28: Train Loss=0.55223, Val Loss=0.62544
+2026-06-17 01:38:22,186 | INFO | Epoch 29: Train Loss=0.55210, Val Loss=0.62022
+2026-06-17 01:38:30,504 | INFO | Epoch 30: Train Loss=0.55111, Val Loss=0.62147
+2026-06-17 01:38:30,544 | INFO | 
+Best model from epoch 29 with val loss=0.62022

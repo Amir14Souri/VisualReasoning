@@ -1,0 +1,6502 @@
+[
+  {
+    "image_path": "data/synthetic/train/0.png",
+    "question": "What shape is the orange object in the bottom-right?",
+    "target_phrase": "orange object in the bottom-right",
+    "answer": "triangle",
+    "target_bbox": [
+      169,
+      159,
+      209,
+      199
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/1.png",
+    "question": "What letter is inside the green triangle in the top-left?",
+    "target_phrase": "green triangle in the top-left",
+    "answer": "H",
+    "target_bbox": [
+      29,
+      14,
+      55,
+      40
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/2.png",
+    "question": "What letter is inside the red triangle in the center?",
+    "target_phrase": "red triangle in the center",
+    "answer": "D",
+    "target_bbox": [
+      97,
+      91,
+      125,
+      119
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/3.png",
+    "question": "What color is the rectangle in the bottom-left?",
+    "target_phrase": "rectangle in the bottom-left",
+    "answer": "green",
+    "target_bbox": [
+      20,
+      177,
+      52,
+      209
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/4.png",
+    "question": "What digit is inside the yellow circle in the center?",
+    "target_phrase": "yellow circle in the center",
+    "answer": "0",
+    "target_bbox": [
+      91,
+      96,
+      129,
+      134
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/5.png",
+    "question": "What digit is inside the yellow triangle in the bottom?",
+    "target_phrase": "yellow triangle in the bottom",
+    "answer": "7",
+    "target_bbox": [
+      93,
+      172,
+      133,
+      212
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/6.png",
+    "question": "What shape is the blue object in the top?",
+    "target_phrase": "blue object in the top",
+    "answer": "circle",
+    "target_bbox": [
+      80,
+      23,
+      126,
+      69
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/7.png",
+    "question": "What digit is inside the blue rectangle in the center?",
+    "target_phrase": "blue rectangle in the center",
+    "answer": "4",
+    "target_bbox": [
+      90,
+      99,
+      132,
+      141
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/8.png",
+    "question": "What letter is inside the green rectangle in the left?",
+    "target_phrase": "green rectangle in the left",
+    "answer": "H",
+    "target_bbox": [
+      24,
+      82,
+      66,
+      124
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/9.png",
+    "question": "What color is the square in the right?",
+    "target_phrase": "square in the right",
+    "answer": "green",
+    "target_bbox": [
+      168,
+      105,
+      198,
+      135
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/10.png",
+    "question": "What color is the circle in the bottom-right?",
+    "target_phrase": "circle in the bottom-right",
+    "answer": "green",
+    "target_bbox": [
+      174,
+      156,
+      218,
+      200
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/11.png",
+    "question": "What color is the triangle in the left?",
+    "target_phrase": "triangle in the left",
+    "answer": "orange",
+    "target_bbox": [
+      23,
+      94,
+      67,
+      138
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/12.png",
+    "question": "What letter is inside the purple triangle in the top?",
+    "target_phrase": "purple triangle in the top",
+    "answer": "E",
+    "target_bbox": [
+      96,
+      6,
+      140,
+      50
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/13.png",
+    "question": "What letter is inside the red square in the top-right?",
+    "target_phrase": "red square in the top-right",
+    "answer": "G",
+    "target_bbox": [
+      175,
+      12,
+      207,
+      44
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/14.png",
+    "question": "What letter is inside the blue square in the top-left?",
+    "target_phrase": "blue square in the top-left",
+    "answer": "H",
+    "target_bbox": [
+      30,
+      21,
+      56,
+      47
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/15.png",
+    "question": "What shape is the yellow object in the bottom-left?",
+    "target_phrase": "yellow object in the bottom-left",
+    "answer": "triangle",
+    "target_bbox": [
+      8,
+      162,
+      54,
+      208
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/16.png",
+    "question": "What color is the triangle in the center?",
+    "target_phrase": "triangle in the center",
+    "answer": "blue",
+    "target_bbox": [
+      92,
+      93,
+      124,
+      125
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/17.png",
+    "question": "What digit is inside the blue square in the top-left?",
+    "target_phrase": "blue square in the top-left",
+    "answer": "9",
+    "target_bbox": [
+      16,
+      15,
+      58,
+      57
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/18.png",
+    "question": "What color is the square in the top-left?",
+    "target_phrase": "square in the top-left",
+    "answer": "red",
+    "target_bbox": [
+      31,
+      12,
+      61,
+      42
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/19.png",
+    "question": "What color is the rectangle in the center?",
+    "target_phrase": "rectangle in the center",
+    "answer": "blue",
+    "target_bbox": [
+      84,
+      83,
+      130,
+      129
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/20.png",
+    "question": "What letter is inside the yellow circle in the center?",
+    "target_phrase": "yellow circle in the center",
+    "answer": "H",
+    "target_bbox": [
+      106,
+      101,
+      130,
+      125
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/21.png",
+    "question": "What color is the square in the bottom-left?",
+    "target_phrase": "square in the bottom-left",
+    "answer": "orange",
+    "target_bbox": [
+      12,
+      163,
+      56,
+      207
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/22.png",
+    "question": "What shape is the green object in the bottom-right?",
+    "target_phrase": "green object in the bottom-right",
+    "answer": "square",
+    "target_bbox": [
+      171,
+      173,
+      197,
+      199
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/23.png",
+    "question": "What digit is inside the blue triangle in the bottom-right?",
+    "target_phrase": "blue triangle in the bottom-right",
+    "answer": "2",
+    "target_bbox": [
+      161,
+      158,
+      207,
+      204
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/24.png",
+    "question": "What color is the square in the top?",
+    "target_phrase": "square in the top",
+    "answer": "yellow",
+    "target_bbox": [
+      93,
+      29,
+      119,
+      55
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/25.png",
+    "question": "What digit is inside the blue rectangle in the bottom-right?",
+    "target_phrase": "blue rectangle in the bottom-right",
+    "answer": "0",
+    "target_bbox": [
+      155,
+      171,
+      201,
+      217
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/26.png",
+    "question": "What letter is inside the blue square in the top-right?",
+    "target_phrase": "blue square in the top-right",
+    "answer": "J",
+    "target_bbox": [
+      177,
+      10,
+      213,
+      46
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/27.png",
+    "question": "What color is the square in the bottom-left?",
+    "target_phrase": "square in the bottom-left",
+    "answer": "red",
+    "target_bbox": [
+      15,
+      160,
+      49,
+      194
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/28.png",
+    "question": "What letter is inside the orange triangle in the top?",
+    "target_phrase": "orange triangle in the top",
+    "answer": "C",
+    "target_bbox": [
+      91,
+      28,
+      119,
+      56
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/29.png",
+    "question": "What color is the rectangle in the top?",
+    "target_phrase": "rectangle in the top",
+    "answer": "green",
+    "target_bbox": [
+      84,
+      16,
+      122,
+      54
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/30.png",
+    "question": "What letter is inside the blue square in the center?",
+    "target_phrase": "blue square in the center",
+    "answer": "B",
+    "target_bbox": [
+      106,
+      88,
+      134,
+      116
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/31.png",
+    "question": "What letter is inside the purple triangle in the right?",
+    "target_phrase": "purple triangle in the right",
+    "answer": "J",
+    "target_bbox": [
+      175,
+      95,
+      219,
+      139
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/32.png",
+    "question": "What letter is inside the yellow triangle in the right?",
+    "target_phrase": "yellow triangle in the right",
+    "answer": "E",
+    "target_bbox": [
+      169,
+      85,
+      209,
+      125
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/33.png",
+    "question": "What shape is the green object in the top-left?",
+    "target_phrase": "green object in the top-left",
+    "answer": "circle",
+    "target_bbox": [
+      25,
+      30,
+      57,
+      62
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/34.png",
+    "question": "What shape is the purple object in the bottom-left?",
+    "target_phrase": "purple object in the bottom-left",
+    "answer": "triangle",
+    "target_bbox": [
+      8,
+      167,
+      52,
+      211
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/35.png",
+    "question": "What digit is inside the blue square in the top-left?",
+    "target_phrase": "blue square in the top-left",
+    "answer": "8",
+    "target_bbox": [
+      19,
+      28,
+      51,
+      60
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/36.png",
+    "question": "What shape is the green object in the bottom-right?",
+    "target_phrase": "green object in the bottom-right",
+    "answer": "rectangle",
+    "target_bbox": [
+      170,
+      165,
+      200,
+      195
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/37.png",
+    "question": "What color is the circle in the top-right?",
+    "target_phrase": "circle in the top-right",
+    "answer": "orange",
+    "target_bbox": [
+      170,
+      23,
+      200,
+      53
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/38.png",
+    "question": "What color is the rectangle in the right?",
+    "target_phrase": "rectangle in the right",
+    "answer": "blue",
+    "target_bbox": [
+      182,
+      107,
+      208,
+      133
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/39.png",
+    "question": "What letter is inside the red rectangle in the bottom-right?",
+    "target_phrase": "red rectangle in the bottom-right",
+    "answer": "I",
+    "target_bbox": [
+      179,
+      183,
+      203,
+      207
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/40.png",
+    "question": "What color is the square in the bottom?",
+    "target_phrase": "square in the bottom",
+    "answer": "yellow",
+    "target_bbox": [
+      94,
+      180,
+      118,
+      204
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/41.png",
+    "question": "What digit is inside the orange rectangle in the right?",
+    "target_phrase": "orange rectangle in the right",
+    "answer": "8",
+    "target_bbox": [
+      161,
+      99,
+      203,
+      141
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/42.png",
+    "question": "What letter is inside the red square in the bottom?",
+    "target_phrase": "red square in the bottom",
+    "answer": "H",
+    "target_bbox": [
+      96,
+      176,
+      120,
+      200
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/43.png",
+    "question": "What color is the rectangle in the bottom?",
+    "target_phrase": "rectangle in the bottom",
+    "answer": "orange",
+    "target_bbox": [
+      105,
+      178,
+      139,
+      212
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/44.png",
+    "question": "What letter is inside the yellow square in the bottom-right?",
+    "target_phrase": "yellow square in the bottom-right",
+    "answer": "B",
+    "target_bbox": [
+      175,
+      170,
+      217,
+      212
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/45.png",
+    "question": "What shape is the red object in the top-left?",
+    "target_phrase": "red object in the top-left",
+    "answer": "square",
+    "target_bbox": [
+      19,
+      24,
+      55,
+      60
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/46.png",
+    "question": "What letter is inside the yellow triangle in the top?",
+    "target_phrase": "yellow triangle in the top",
+    "answer": "F",
+    "target_bbox": [
+      100,
+      23,
+      132,
+      55
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/47.png",
+    "question": "What digit is inside the purple triangle in the top-left?",
+    "target_phrase": "purple triangle in the top-left",
+    "answer": "9",
+    "target_bbox": [
+      10,
+      10,
+      54,
+      54
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/48.png",
+    "question": "What letter is inside the yellow circle in the top-right?",
+    "target_phrase": "yellow circle in the top-right",
+    "answer": "H",
+    "target_bbox": [
+      160,
+      17,
+      196,
+      53
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/49.png",
+    "question": "What digit is inside the blue rectangle in the right?",
+    "target_phrase": "blue rectangle in the right",
+    "answer": "9",
+    "target_bbox": [
+      170,
+      93,
+      212,
+      135
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/50.png",
+    "question": "What digit is inside the orange square in the center?",
+    "target_phrase": "orange square in the center",
+    "answer": "3",
+    "target_bbox": [
+      102,
+      93,
+      128,
+      119
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/51.png",
+    "question": "What shape is the orange object in the top?",
+    "target_phrase": "orange object in the top",
+    "answer": "square",
+    "target_bbox": [
+      91,
+      32,
+      119,
+      60
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/52.png",
+    "question": "What color is the circle in the top-right?",
+    "target_phrase": "circle in the top-right",
+    "answer": "yellow",
+    "target_bbox": [
+      155,
+      11,
+      203,
+      59
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/53.png",
+    "question": "What color is the circle in the right?",
+    "target_phrase": "circle in the right",
+    "answer": "blue",
+    "target_bbox": [
+      170,
+      88,
+      212,
+      130
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/54.png",
+    "question": "What digit is inside the yellow circle in the top?",
+    "target_phrase": "yellow circle in the top",
+    "answer": "8",
+    "target_bbox": [
+      93,
+      24,
+      123,
+      54
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/55.png",
+    "question": "What color is the circle in the top-right?",
+    "target_phrase": "circle in the top-right",
+    "answer": "purple",
+    "target_bbox": [
+      162,
+      27,
+      202,
+      67
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/56.png",
+    "question": "What letter is inside the blue triangle in the top-right?",
+    "target_phrase": "blue triangle in the top-right",
+    "answer": "A",
+    "target_bbox": [
+      173,
+      12,
+      211,
+      50
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/57.png",
+    "question": "What color is the rectangle in the left?",
+    "target_phrase": "rectangle in the left",
+    "answer": "orange",
+    "target_bbox": [
+      29,
+      99,
+      61,
+      131
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/58.png",
+    "question": "What letter is inside the red circle in the left?",
+    "target_phrase": "red circle in the left",
+    "answer": "D",
+    "target_bbox": [
+      7,
+      89,
+      51,
+      133
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/59.png",
+    "question": "What color is the circle in the right?",
+    "target_phrase": "circle in the right",
+    "answer": "red",
+    "target_bbox": [
+      154,
+      82,
+      200,
+      128
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/60.png",
+    "question": "What color is the triangle in the bottom-left?",
+    "target_phrase": "triangle in the bottom-left",
+    "answer": "blue",
+    "target_bbox": [
+      17,
+      172,
+      57,
+      212
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/61.png",
+    "question": "What shape is the yellow object in the left?",
+    "target_phrase": "yellow object in the left",
+    "answer": "circle",
+    "target_bbox": [
+      12,
+      98,
+      46,
+      132
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/62.png",
+    "question": "What letter is inside the red rectangle in the bottom?",
+    "target_phrase": "red rectangle in the bottom",
+    "answer": "H",
+    "target_bbox": [
+      93,
+      169,
+      137,
+      213
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/63.png",
+    "question": "What shape is the red object in the top-right?",
+    "target_phrase": "red object in the top-right",
+    "answer": "rectangle",
+    "target_bbox": [
+      159,
+      22,
+      203,
+      66
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/64.png",
+    "question": "What color is the rectangle in the top-right?",
+    "target_phrase": "rectangle in the top-right",
+    "answer": "yellow",
+    "target_bbox": [
+      164,
+      23,
+      202,
+      61
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/65.png",
+    "question": "What digit is inside the yellow square in the top?",
+    "target_phrase": "yellow square in the top",
+    "answer": "7",
+    "target_bbox": [
+      103,
+      33,
+      131,
+      61
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/66.png",
+    "question": "What color is the circle in the bottom-right?",
+    "target_phrase": "circle in the bottom-right",
+    "answer": "blue",
+    "target_bbox": [
+      165,
+      173,
+      201,
+      209
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/67.png",
+    "question": "What digit is inside the green circle in the bottom?",
+    "target_phrase": "green circle in the bottom",
+    "answer": "6",
+    "target_bbox": [
+      98,
+      164,
+      136,
+      202
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/68.png",
+    "question": "What letter is inside the orange square in the center?",
+    "target_phrase": "orange square in the center",
+    "answer": "A",
+    "target_bbox": [
+      97,
+      109,
+      123,
+      135
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/69.png",
+    "question": "What shape is the red object in the top-left?",
+    "target_phrase": "red object in the top-left",
+    "answer": "triangle",
+    "target_bbox": [
+      23,
+      32,
+      53,
+      62
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/70.png",
+    "question": "What shape is the red object in the bottom?",
+    "target_phrase": "red object in the bottom",
+    "answer": "rectangle",
+    "target_bbox": [
+      89,
+      174,
+      133,
+      218
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/71.png",
+    "question": "What shape is the red object in the top-right?",
+    "target_phrase": "red object in the top-right",
+    "answer": "square",
+    "target_bbox": [
+      171,
+      15,
+      207,
+      51
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/72.png",
+    "question": "What letter is inside the green triangle in the bottom?",
+    "target_phrase": "green triangle in the bottom",
+    "answer": "J",
+    "target_bbox": [
+      93,
+      172,
+      123,
+      202
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/73.png",
+    "question": "What color is the triangle in the top-right?",
+    "target_phrase": "triangle in the top-right",
+    "answer": "orange",
+    "target_bbox": [
+      171,
+      18,
+      201,
+      48
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/74.png",
+    "question": "What digit is inside the green circle in the bottom-right?",
+    "target_phrase": "green circle in the bottom-right",
+    "answer": "0",
+    "target_bbox": [
+      158,
+      170,
+      198,
+      210
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/75.png",
+    "question": "What digit is inside the blue circle in the top-left?",
+    "target_phrase": "blue circle in the top-left",
+    "answer": "0",
+    "target_bbox": [
+      23,
+      12,
+      71,
+      60
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/76.png",
+    "question": "What shape is the red object in the bottom-right?",
+    "target_phrase": "red object in the bottom-right",
+    "answer": "triangle",
+    "target_bbox": [
+      160,
+      166,
+      206,
+      212
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/77.png",
+    "question": "What digit is inside the yellow rectangle in the top-right?",
+    "target_phrase": "yellow rectangle in the top-right",
+    "answer": "9",
+    "target_bbox": [
+      170,
+      17,
+      204,
+      51
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/78.png",
+    "question": "What digit is inside the blue rectangle in the center?",
+    "target_phrase": "blue rectangle in the center",
+    "answer": "9",
+    "target_bbox": [
+      87,
+      95,
+      131,
+      139
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/79.png",
+    "question": "What shape is the orange object in the left?",
+    "target_phrase": "orange object in the left",
+    "answer": "rectangle",
+    "target_bbox": [
+      27,
+      89,
+      63,
+      125
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/80.png",
+    "question": "What digit is inside the red rectangle in the top-left?",
+    "target_phrase": "red rectangle in the top-left",
+    "answer": "0",
+    "target_bbox": [
+      17,
+      31,
+      43,
+      57
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/81.png",
+    "question": "What shape is the blue object in the center?",
+    "target_phrase": "blue object in the center",
+    "answer": "triangle",
+    "target_bbox": [
+      78,
+      82,
+      126,
+      130
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/82.png",
+    "question": "What color is the rectangle in the left?",
+    "target_phrase": "rectangle in the left",
+    "answer": "green",
+    "target_bbox": [
+      24,
+      91,
+      56,
+      123
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/83.png",
+    "question": "What color is the square in the bottom-right?",
+    "target_phrase": "square in the bottom-right",
+    "answer": "blue",
+    "target_bbox": [
+      173,
+      163,
+      211,
+      201
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/84.png",
+    "question": "What letter is inside the orange triangle in the top-right?",
+    "target_phrase": "orange triangle in the top-right",
+    "answer": "J",
+    "target_bbox": [
+      176,
+      25,
+      204,
+      53
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/85.png",
+    "question": "What shape is the orange object in the top-right?",
+    "target_phrase": "orange object in the top-right",
+    "answer": "circle",
+    "target_bbox": [
+      165,
+      5,
+      211,
+      51
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/86.png",
+    "question": "What shape is the red object in the top-left?",
+    "target_phrase": "red object in the top-left",
+    "answer": "square",
+    "target_bbox": [
+      27,
+      30,
+      53,
+      56
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/87.png",
+    "question": "What shape is the red object in the bottom-right?",
+    "target_phrase": "red object in the bottom-right",
+    "answer": "rectangle",
+    "target_bbox": [
+      167,
+      165,
+      213,
+      211
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/88.png",
+    "question": "What letter is inside the red rectangle in the top?",
+    "target_phrase": "red rectangle in the top",
+    "answer": "G",
+    "target_bbox": [
+      89,
+      21,
+      129,
+      61
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/89.png",
+    "question": "What letter is inside the green square in the top-left?",
+    "target_phrase": "green square in the top-left",
+    "answer": "I",
+    "target_bbox": [
+      33,
+      17,
+      59,
+      43
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/90.png",
+    "question": "What digit is inside the green rectangle in the top?",
+    "target_phrase": "green rectangle in the top",
+    "answer": "9",
+    "target_bbox": [
+      96,
+      31,
+      122,
+      57
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/91.png",
+    "question": "What shape is the yellow object in the top-left?",
+    "target_phrase": "yellow object in the top-left",
+    "answer": "square",
+    "target_bbox": [
+      16,
+      21,
+      40,
+      45
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/92.png",
+    "question": "What color is the rectangle in the center?",
+    "target_phrase": "rectangle in the center",
+    "answer": "orange",
+    "target_bbox": [
+      92,
+      93,
+      130,
+      131
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/93.png",
+    "question": "What shape is the orange object in the top-right?",
+    "target_phrase": "orange object in the top-right",
+    "answer": "square",
+    "target_bbox": [
+      169,
+      16,
+      211,
+      58
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/94.png",
+    "question": "What color is the square in the top?",
+    "target_phrase": "square in the top",
+    "answer": "orange",
+    "target_bbox": [
+      108,
+      13,
+      136,
+      41
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/95.png",
+    "question": "What digit is inside the purple square in the bottom-right?",
+    "target_phrase": "purple square in the bottom-right",
+    "answer": "9",
+    "target_bbox": [
+      166,
+      159,
+      206,
+      199
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/96.png",
+    "question": "What color is the circle in the center?",
+    "target_phrase": "circle in the center",
+    "answer": "red",
+    "target_bbox": [
+      84,
+      91,
+      120,
+      127
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/97.png",
+    "question": "What letter is inside the green triangle in the right?",
+    "target_phrase": "green triangle in the right",
+    "answer": "I",
+    "target_bbox": [
+      168,
+      82,
+      210,
+      124
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/98.png",
+    "question": "What digit is inside the green circle in the bottom?",
+    "target_phrase": "green circle in the bottom",
+    "answer": "7",
+    "target_bbox": [
+      99,
+      173,
+      133,
+      207
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/99.png",
+    "question": "What letter is inside the blue triangle in the left?",
+    "target_phrase": "blue triangle in the left",
+    "answer": "D",
+    "target_bbox": [
+      20,
+      88,
+      54,
+      122
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/100.png",
+    "question": "What digit is inside the green circle in the bottom-left?",
+    "target_phrase": "green circle in the bottom-left",
+    "answer": "4",
+    "target_bbox": [
+      25,
+      167,
+      59,
+      201
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/101.png",
+    "question": "What shape is the yellow object in the top?",
+    "target_phrase": "yellow object in the top",
+    "answer": "triangle",
+    "target_bbox": [
+      95,
+      15,
+      133,
+      53
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/102.png",
+    "question": "What color is the rectangle in the center?",
+    "target_phrase": "rectangle in the center",
+    "answer": "green",
+    "target_bbox": [
+      89,
+      97,
+      137,
+      145
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/103.png",
+    "question": "What letter is inside the red triangle in the bottom-right?",
+    "target_phrase": "red triangle in the bottom-right",
+    "answer": "F",
+    "target_bbox": [
+      170,
+      158,
+      216,
+      204
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/104.png",
+    "question": "What digit is inside the blue circle in the right?",
+    "target_phrase": "blue circle in the right",
+    "answer": "1",
+    "target_bbox": [
+      165,
+      90,
+      209,
+      134
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/105.png",
+    "question": "What letter is inside the red rectangle in the right?",
+    "target_phrase": "red rectangle in the right",
+    "answer": "I",
+    "target_bbox": [
+      168,
+      93,
+      204,
+      129
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/106.png",
+    "question": "What letter is inside the green square in the bottom-right?",
+    "target_phrase": "green square in the bottom-right",
+    "answer": "I",
+    "target_bbox": [
+      155,
+      168,
+      199,
+      212
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/107.png",
+    "question": "What digit is inside the purple rectangle in the bottom?",
+    "target_phrase": "purple rectangle in the bottom",
+    "answer": "6",
+    "target_bbox": [
+      90,
+      154,
+      136,
+      200
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/108.png",
+    "question": "What digit is inside the blue square in the top-right?",
+    "target_phrase": "blue square in the top-right",
+    "answer": "6",
+    "target_bbox": [
+      172,
+      4,
+      220,
+      52
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/109.png",
+    "question": "What digit is inside the purple square in the top-left?",
+    "target_phrase": "purple square in the top-left",
+    "answer": "8",
+    "target_bbox": [
+      13,
+      18,
+      43,
+      48
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/110.png",
+    "question": "What digit is inside the green triangle in the top?",
+    "target_phrase": "green triangle in the top",
+    "answer": "1",
+    "target_bbox": [
+      86,
+      11,
+      130,
+      55
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/111.png",
+    "question": "What color is the triangle in the top-right?",
+    "target_phrase": "triangle in the top-right",
+    "answer": "red",
+    "target_bbox": [
+      172,
+      9,
+      208,
+      45
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/112.png",
+    "question": "What color is the square in the bottom?",
+    "target_phrase": "square in the bottom",
+    "answer": "blue",
+    "target_bbox": [
+      95,
+      165,
+      143,
+      213
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/113.png",
+    "question": "What letter is inside the purple triangle in the center?",
+    "target_phrase": "purple triangle in the center",
+    "answer": "H",
+    "target_bbox": [
+      98,
+      83,
+      138,
+      123
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/114.png",
+    "question": "What color is the rectangle in the left?",
+    "target_phrase": "rectangle in the left",
+    "answer": "purple",
+    "target_bbox": [
+      11,
+      81,
+      59,
+      129
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/115.png",
+    "question": "What letter is inside the orange rectangle in the bottom-right?",
+    "target_phrase": "orange rectangle in the bottom-right",
+    "answer": "I",
+    "target_bbox": [
+      175,
+      177,
+      211,
+      213
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/116.png",
+    "question": "What digit is inside the green circle in the bottom-left?",
+    "target_phrase": "green circle in the bottom-left",
+    "answer": "4",
+    "target_bbox": [
+      16,
+      175,
+      60,
+      219
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/117.png",
+    "question": "What letter is inside the blue circle in the top-right?",
+    "target_phrase": "blue circle in the top-right",
+    "answer": "C",
+    "target_bbox": [
+      166,
+      8,
+      206,
+      48
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/118.png",
+    "question": "What shape is the yellow object in the right?",
+    "target_phrase": "yellow object in the right",
+    "answer": "triangle",
+    "target_bbox": [
+      163,
+      94,
+      205,
+      136
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/119.png",
+    "question": "What shape is the blue object in the bottom?",
+    "target_phrase": "blue object in the bottom",
+    "answer": "rectangle",
+    "target_bbox": [
+      87,
+      169,
+      127,
+      209
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/120.png",
+    "question": "What color is the triangle in the top?",
+    "target_phrase": "triangle in the top",
+    "answer": "orange",
+    "target_bbox": [
+      86,
+      10,
+      128,
+      52
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/121.png",
+    "question": "What letter is inside the orange circle in the bottom-left?",
+    "target_phrase": "orange circle in the bottom-left",
+    "answer": "C",
+    "target_bbox": [
+      22,
+      160,
+      68,
+      206
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/122.png",
+    "question": "What letter is inside the blue triangle in the left?",
+    "target_phrase": "blue triangle in the left",
+    "answer": "G",
+    "target_bbox": [
+      23,
+      91,
+      55,
+      123
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/123.png",
+    "question": "What shape is the orange object in the bottom-right?",
+    "target_phrase": "orange object in the bottom-right",
+    "answer": "circle",
+    "target_bbox": [
+      172,
+      165,
+      206,
+      199
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/124.png",
+    "question": "What letter is inside the green circle in the bottom?",
+    "target_phrase": "green circle in the bottom",
+    "answer": "A",
+    "target_bbox": [
+      105,
+      170,
+      135,
+      200
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/125.png",
+    "question": "What color is the rectangle in the bottom-left?",
+    "target_phrase": "rectangle in the bottom-left",
+    "answer": "blue",
+    "target_bbox": [
+      25,
+      170,
+      65,
+      210
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/126.png",
+    "question": "What shape is the green object in the top-right?",
+    "target_phrase": "green object in the top-right",
+    "answer": "rectangle",
+    "target_bbox": [
+      162,
+      10,
+      210,
+      58
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/127.png",
+    "question": "What letter is inside the red rectangle in the top-right?",
+    "target_phrase": "red rectangle in the top-right",
+    "answer": "J",
+    "target_bbox": [
+      175,
+      33,
+      203,
+      61
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/128.png",
+    "question": "What digit is inside the yellow circle in the top?",
+    "target_phrase": "yellow circle in the top",
+    "answer": "9",
+    "target_bbox": [
+      99,
+      17,
+      137,
+      55
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/129.png",
+    "question": "What letter is inside the blue triangle in the center?",
+    "target_phrase": "blue triangle in the center",
+    "answer": "F",
+    "target_bbox": [
+      97,
+      94,
+      121,
+      118
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/130.png",
+    "question": "What digit is inside the red square in the bottom-left?",
+    "target_phrase": "red square in the bottom-left",
+    "answer": "9",
+    "target_bbox": [
+      19,
+      180,
+      45,
+      206
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/131.png",
+    "question": "What shape is the orange object in the right?",
+    "target_phrase": "orange object in the right",
+    "answer": "square",
+    "target_bbox": [
+      175,
+      88,
+      205,
+      118
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/132.png",
+    "question": "What shape is the yellow object in the left?",
+    "target_phrase": "yellow object in the left",
+    "answer": "square",
+    "target_bbox": [
+      29,
+      94,
+      59,
+      124
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/133.png",
+    "question": "What shape is the red object in the bottom-left?",
+    "target_phrase": "red object in the bottom-left",
+    "answer": "square",
+    "target_bbox": [
+      18,
+      158,
+      64,
+      204
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/134.png",
+    "question": "What letter is inside the orange triangle in the left?",
+    "target_phrase": "orange triangle in the left",
+    "answer": "B",
+    "target_bbox": [
+      18,
+      100,
+      50,
+      132
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/135.png",
+    "question": "What color is the circle in the bottom?",
+    "target_phrase": "circle in the bottom",
+    "answer": "red",
+    "target_bbox": [
+      103,
+      174,
+      127,
+      198
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/136.png",
+    "question": "What digit is inside the orange square in the bottom?",
+    "target_phrase": "orange square in the bottom",
+    "answer": "8",
+    "target_bbox": [
+      89,
+      160,
+      131,
+      202
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/137.png",
+    "question": "What color is the square in the bottom?",
+    "target_phrase": "square in the bottom",
+    "answer": "orange",
+    "target_bbox": [
+      101,
+      175,
+      141,
+      215
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/138.png",
+    "question": "What color is the circle in the top-right?",
+    "target_phrase": "circle in the top-right",
+    "answer": "yellow",
+    "target_bbox": [
+      171,
+      30,
+      199,
+      58
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/139.png",
+    "question": "What color is the rectangle in the bottom-left?",
+    "target_phrase": "rectangle in the bottom-left",
+    "answer": "red",
+    "target_bbox": [
+      22,
+      160,
+      64,
+      202
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/140.png",
+    "question": "What shape is the yellow object in the left?",
+    "target_phrase": "yellow object in the left",
+    "answer": "circle",
+    "target_bbox": [
+      16,
+      98,
+      40,
+      122
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/141.png",
+    "question": "What color is the circle in the bottom-right?",
+    "target_phrase": "circle in the bottom-right",
+    "answer": "red",
+    "target_bbox": [
+      173,
+      175,
+      209,
+      211
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/142.png",
+    "question": "What shape is the yellow object in the top-right?",
+    "target_phrase": "yellow object in the top-right",
+    "answer": "circle",
+    "target_bbox": [
+      172,
+      5,
+      220,
+      53
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/143.png",
+    "question": "What color is the circle in the bottom-left?",
+    "target_phrase": "circle in the bottom-left",
+    "answer": "blue",
+    "target_bbox": [
+      16,
+      168,
+      60,
+      212
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/144.png",
+    "question": "What shape is the green object in the top?",
+    "target_phrase": "green object in the top",
+    "answer": "triangle",
+    "target_bbox": [
+      88,
+      23,
+      118,
+      53
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/145.png",
+    "question": "What digit is inside the blue rectangle in the top?",
+    "target_phrase": "blue rectangle in the top",
+    "answer": "7",
+    "target_bbox": [
+      106,
+      26,
+      136,
+      56
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/146.png",
+    "question": "What letter is inside the yellow square in the top-right?",
+    "target_phrase": "yellow square in the top-right",
+    "answer": "B",
+    "target_bbox": [
+      164,
+      14,
+      198,
+      48
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/147.png",
+    "question": "What color is the square in the top-right?",
+    "target_phrase": "square in the top-right",
+    "answer": "orange",
+    "target_bbox": [
+      161,
+      30,
+      193,
+      62
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/148.png",
+    "question": "What color is the circle in the bottom?",
+    "target_phrase": "circle in the bottom",
+    "answer": "green",
+    "target_bbox": [
+      93,
+      160,
+      135,
+      202
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/149.png",
+    "question": "What color is the circle in the bottom-right?",
+    "target_phrase": "circle in the bottom-right",
+    "answer": "blue",
+    "target_bbox": [
+      165,
+      154,
+      213,
+      202
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/150.png",
+    "question": "What color is the circle in the top-left?",
+    "target_phrase": "circle in the top-left",
+    "answer": "green",
+    "target_bbox": [
+      23,
+      19,
+      49,
+      45
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/151.png",
+    "question": "What digit is inside the yellow circle in the bottom-left?",
+    "target_phrase": "yellow circle in the bottom-left",
+    "answer": "4",
+    "target_bbox": [
+      26,
+      164,
+      56,
+      194
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/152.png",
+    "question": "What color is the square in the right?",
+    "target_phrase": "square in the right",
+    "answer": "blue",
+    "target_bbox": [
+      164,
+      94,
+      200,
+      130
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/153.png",
+    "question": "What shape is the purple object in the center?",
+    "target_phrase": "purple object in the center",
+    "answer": "circle",
+    "target_bbox": [
+      85,
+      89,
+      129,
+      133
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/154.png",
+    "question": "What digit is inside the green rectangle in the bottom?",
+    "target_phrase": "green rectangle in the bottom",
+    "answer": "6",
+    "target_bbox": [
+      94,
+      176,
+      134,
+      216
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/155.png",
+    "question": "What shape is the orange object in the right?",
+    "target_phrase": "orange object in the right",
+    "answer": "circle",
+    "target_bbox": [
+      176,
+      97,
+      200,
+      121
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/156.png",
+    "question": "What shape is the orange object in the bottom?",
+    "target_phrase": "orange object in the bottom",
+    "answer": "rectangle",
+    "target_bbox": [
+      92,
+      162,
+      140,
+      210
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/157.png",
+    "question": "What digit is inside the purple square in the right?",
+    "target_phrase": "purple square in the right",
+    "answer": "6",
+    "target_bbox": [
+      167,
+      105,
+      197,
+      135
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/158.png",
+    "question": "What letter is inside the green circle in the bottom-right?",
+    "target_phrase": "green circle in the bottom-right",
+    "answer": "A",
+    "target_bbox": [
+      176,
+      171,
+      218,
+      213
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/159.png",
+    "question": "What digit is inside the green circle in the top-left?",
+    "target_phrase": "green circle in the top-left",
+    "answer": "3",
+    "target_bbox": [
+      17,
+      19,
+      55,
+      57
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/160.png",
+    "question": "What letter is inside the orange rectangle in the bottom?",
+    "target_phrase": "orange rectangle in the bottom",
+    "answer": "J",
+    "target_bbox": [
+      92,
+      172,
+      122,
+      202
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/161.png",
+    "question": "What shape is the yellow object in the left?",
+    "target_phrase": "yellow object in the left",
+    "answer": "circle",
+    "target_bbox": [
+      22,
+      92,
+      46,
+      116
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/162.png",
+    "question": "What letter is inside the purple rectangle in the top-right?",
+    "target_phrase": "purple rectangle in the top-right",
+    "answer": "I",
+    "target_bbox": [
+      176,
+      22,
+      200,
+      46
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/163.png",
+    "question": "What letter is inside the orange circle in the bottom-left?",
+    "target_phrase": "orange circle in the bottom-left",
+    "answer": "G",
+    "target_bbox": [
+      33,
+      163,
+      61,
+      191
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/164.png",
+    "question": "What letter is inside the yellow rectangle in the left?",
+    "target_phrase": "yellow rectangle in the left",
+    "answer": "G",
+    "target_bbox": [
+      28,
+      84,
+      66,
+      122
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/165.png",
+    "question": "What color is the triangle in the bottom?",
+    "target_phrase": "triangle in the bottom",
+    "answer": "orange",
+    "target_bbox": [
+      93,
+      174,
+      117,
+      198
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/166.png",
+    "question": "What color is the triangle in the center?",
+    "target_phrase": "triangle in the center",
+    "answer": "yellow",
+    "target_bbox": [
+      90,
+      97,
+      118,
+      125
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/167.png",
+    "question": "What letter is inside the purple circle in the top?",
+    "target_phrase": "purple circle in the top",
+    "answer": "J",
+    "target_bbox": [
+      96,
+      5,
+      140,
+      49
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/168.png",
+    "question": "What letter is inside the red square in the left?",
+    "target_phrase": "red square in the left",
+    "answer": "F",
+    "target_bbox": [
+      26,
+      99,
+      64,
+      137
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/169.png",
+    "question": "What color is the rectangle in the right?",
+    "target_phrase": "rectangle in the right",
+    "answer": "blue",
+    "target_bbox": [
+      170,
+      93,
+      206,
+      129
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/170.png",
+    "question": "What shape is the blue object in the top?",
+    "target_phrase": "blue object in the top",
+    "answer": "rectangle",
+    "target_bbox": [
+      90,
+      20,
+      136,
+      66
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/171.png",
+    "question": "What shape is the blue object in the top-right?",
+    "target_phrase": "blue object in the top-right",
+    "answer": "triangle",
+    "target_bbox": [
+      162,
+      16,
+      194,
+      48
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/172.png",
+    "question": "What digit is inside the purple square in the top-left?",
+    "target_phrase": "purple square in the top-left",
+    "answer": "4",
+    "target_bbox": [
+      24,
+      20,
+      54,
+      50
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/173.png",
+    "question": "What shape is the red object in the top-left?",
+    "target_phrase": "red object in the top-left",
+    "answer": "square",
+    "target_bbox": [
+      30,
+      29,
+      60,
+      59
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/174.png",
+    "question": "What letter is inside the purple square in the bottom-left?",
+    "target_phrase": "purple square in the bottom-left",
+    "answer": "G",
+    "target_bbox": [
+      25,
+      169,
+      55,
+      199
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/175.png",
+    "question": "What shape is the yellow object in the center?",
+    "target_phrase": "yellow object in the center",
+    "answer": "circle",
+    "target_bbox": [
+      102,
+      97,
+      130,
+      125
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/176.png",
+    "question": "What letter is inside the orange triangle in the top-right?",
+    "target_phrase": "orange triangle in the top-right",
+    "answer": "G",
+    "target_bbox": [
+      176,
+      26,
+      202,
+      52
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/177.png",
+    "question": "What digit is inside the blue triangle in the bottom-left?",
+    "target_phrase": "blue triangle in the bottom-left",
+    "answer": "1",
+    "target_bbox": [
+      11,
+      161,
+      53,
+      203
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/178.png",
+    "question": "What color is the circle in the bottom-left?",
+    "target_phrase": "circle in the bottom-left",
+    "answer": "orange",
+    "target_bbox": [
+      23,
+      175,
+      47,
+      199
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/179.png",
+    "question": "What shape is the orange object in the bottom-left?",
+    "target_phrase": "orange object in the bottom-left",
+    "answer": "rectangle",
+    "target_bbox": [
+      20,
+      153,
+      68,
+      201
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/180.png",
+    "question": "What color is the rectangle in the top-right?",
+    "target_phrase": "rectangle in the top-right",
+    "answer": "green",
+    "target_bbox": [
+      157,
+      23,
+      203,
+      69
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/181.png",
+    "question": "What color is the square in the bottom?",
+    "target_phrase": "square in the bottom",
+    "answer": "blue",
+    "target_bbox": [
+      92,
+      177,
+      128,
+      213
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/182.png",
+    "question": "What color is the circle in the top-right?",
+    "target_phrase": "circle in the top-right",
+    "answer": "yellow",
+    "target_bbox": [
+      175,
+      10,
+      213,
+      48
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/183.png",
+    "question": "What color is the rectangle in the bottom-right?",
+    "target_phrase": "rectangle in the bottom-right",
+    "answer": "orange",
+    "target_bbox": [
+      173,
+      164,
+      211,
+      202
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/184.png",
+    "question": "What letter is inside the purple rectangle in the top-left?",
+    "target_phrase": "purple rectangle in the top-left",
+    "answer": "J",
+    "target_bbox": [
+      27,
+      14,
+      67,
+      54
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/185.png",
+    "question": "What shape is the green object in the top-right?",
+    "target_phrase": "green object in the top-right",
+    "answer": "square",
+    "target_bbox": [
+      176,
+      30,
+      204,
+      58
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/186.png",
+    "question": "What letter is inside the orange rectangle in the left?",
+    "target_phrase": "orange rectangle in the left",
+    "answer": "D",
+    "target_bbox": [
+      17,
+      96,
+      43,
+      122
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/187.png",
+    "question": "What letter is inside the purple rectangle in the bottom-left?",
+    "target_phrase": "purple rectangle in the bottom-left",
+    "answer": "C",
+    "target_bbox": [
+      14,
+      173,
+      40,
+      199
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/188.png",
+    "question": "What digit is inside the orange rectangle in the right?",
+    "target_phrase": "orange rectangle in the right",
+    "answer": "6",
+    "target_bbox": [
+      163,
+      86,
+      211,
+      134
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/189.png",
+    "question": "What letter is inside the blue square in the top-right?",
+    "target_phrase": "blue square in the top-right",
+    "answer": "B",
+    "target_bbox": [
+      158,
+      18,
+      204,
+      64
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/190.png",
+    "question": "What shape is the purple object in the bottom-right?",
+    "target_phrase": "purple object in the bottom-right",
+    "answer": "circle",
+    "target_bbox": [
+      166,
+      182,
+      190,
+      206
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/191.png",
+    "question": "What letter is inside the green triangle in the right?",
+    "target_phrase": "green triangle in the right",
+    "answer": "F",
+    "target_bbox": [
+      170,
+      90,
+      212,
+      132
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/192.png",
+    "question": "What color is the rectangle in the left?",
+    "target_phrase": "rectangle in the left",
+    "answer": "purple",
+    "target_bbox": [
+      18,
+      95,
+      62,
+      139
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/193.png",
+    "question": "What letter is inside the yellow square in the center?",
+    "target_phrase": "yellow square in the center",
+    "answer": "J",
+    "target_bbox": [
+      85,
+      99,
+      121,
+      135
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/194.png",
+    "question": "What letter is inside the orange rectangle in the bottom-right?",
+    "target_phrase": "orange rectangle in the bottom-right",
+    "answer": "D",
+    "target_bbox": [
+      170,
+      175,
+      214,
+      219
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/195.png",
+    "question": "What digit is inside the yellow circle in the top?",
+    "target_phrase": "yellow circle in the top",
+    "answer": "5",
+    "target_bbox": [
+      96,
+      15,
+      140,
+      59
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/196.png",
+    "question": "What color is the rectangle in the top-left?",
+    "target_phrase": "rectangle in the top-left",
+    "answer": "purple",
+    "target_bbox": [
+      26,
+      12,
+      62,
+      48
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/197.png",
+    "question": "What color is the square in the bottom-left?",
+    "target_phrase": "square in the bottom-left",
+    "answer": "orange",
+    "target_bbox": [
+      11,
+      171,
+      45,
+      205
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/198.png",
+    "question": "What digit is inside the yellow rectangle in the top-left?",
+    "target_phrase": "yellow rectangle in the top-left",
+    "answer": "7",
+    "target_bbox": [
+      9,
+      13,
+      57,
+      61
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/199.png",
+    "question": "What digit is inside the purple triangle in the right?",
+    "target_phrase": "purple triangle in the right",
+    "answer": "8",
+    "target_bbox": [
+      168,
+      89,
+      196,
+      117
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/200.png",
+    "question": "What digit is inside the blue circle in the top-left?",
+    "target_phrase": "blue circle in the top-left",
+    "answer": "9",
+    "target_bbox": [
+      14,
+      28,
+      46,
+      60
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/201.png",
+    "question": "What digit is inside the purple rectangle in the top-right?",
+    "target_phrase": "purple rectangle in the top-right",
+    "answer": "2",
+    "target_bbox": [
+      176,
+      12,
+      206,
+      42
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/202.png",
+    "question": "What color is the circle in the top-right?",
+    "target_phrase": "circle in the top-right",
+    "answer": "green",
+    "target_bbox": [
+      164,
+      16,
+      198,
+      50
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/203.png",
+    "question": "What color is the square in the left?",
+    "target_phrase": "square in the left",
+    "answer": "purple",
+    "target_bbox": [
+      21,
+      83,
+      63,
+      125
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/204.png",
+    "question": "What letter is inside the orange circle in the bottom-left?",
+    "target_phrase": "orange circle in the bottom-left",
+    "answer": "D",
+    "target_bbox": [
+      11,
+      173,
+      53,
+      215
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/205.png",
+    "question": "What digit is inside the purple rectangle in the top-left?",
+    "target_phrase": "purple rectangle in the top-left",
+    "answer": "4",
+    "target_bbox": [
+      15,
+      15,
+      39,
+      39
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/206.png",
+    "question": "What digit is inside the red rectangle in the bottom?",
+    "target_phrase": "red rectangle in the bottom",
+    "answer": "1",
+    "target_bbox": [
+      108,
+      170,
+      136,
+      198
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/207.png",
+    "question": "What color is the triangle in the top?",
+    "target_phrase": "triangle in the top",
+    "answer": "blue",
+    "target_bbox": [
+      98,
+      25,
+      132,
+      59
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/208.png",
+    "question": "What letter is inside the red rectangle in the right?",
+    "target_phrase": "red rectangle in the right",
+    "answer": "D",
+    "target_bbox": [
+      170,
+      88,
+      202,
+      120
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/209.png",
+    "question": "What digit is inside the red triangle in the top?",
+    "target_phrase": "red triangle in the top",
+    "answer": "7",
+    "target_bbox": [
+      93,
+      11,
+      129,
+      47
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/210.png",
+    "question": "What letter is inside the yellow rectangle in the bottom?",
+    "target_phrase": "yellow rectangle in the bottom",
+    "answer": "I",
+    "target_bbox": [
+      103,
+      163,
+      141,
+      201
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/211.png",
+    "question": "What color is the circle in the top?",
+    "target_phrase": "circle in the top",
+    "answer": "red",
+    "target_bbox": [
+      101,
+      31,
+      125,
+      55
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/212.png",
+    "question": "What color is the triangle in the bottom-left?",
+    "target_phrase": "triangle in the bottom-left",
+    "answer": "purple",
+    "target_bbox": [
+      26,
+      163,
+      54,
+      191
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/213.png",
+    "question": "What digit is inside the blue rectangle in the top?",
+    "target_phrase": "blue rectangle in the top",
+    "answer": "8",
+    "target_bbox": [
+      89,
+      20,
+      135,
+      66
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/214.png",
+    "question": "What digit is inside the orange triangle in the top-left?",
+    "target_phrase": "orange triangle in the top-left",
+    "answer": "8",
+    "target_bbox": [
+      13,
+      24,
+      55,
+      66
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/215.png",
+    "question": "What digit is inside the red square in the top?",
+    "target_phrase": "red square in the top",
+    "answer": "1",
+    "target_bbox": [
+      96,
+      17,
+      126,
+      47
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/216.png",
+    "question": "What shape is the orange object in the right?",
+    "target_phrase": "orange object in the right",
+    "answer": "circle",
+    "target_bbox": [
+      163,
+      92,
+      197,
+      126
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/217.png",
+    "question": "What digit is inside the blue circle in the left?",
+    "target_phrase": "blue circle in the left",
+    "answer": "3",
+    "target_bbox": [
+      13,
+      98,
+      49,
+      134
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/218.png",
+    "question": "What letter is inside the green square in the top-left?",
+    "target_phrase": "green square in the top-left",
+    "answer": "B",
+    "target_bbox": [
+      12,
+      24,
+      42,
+      54
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/219.png",
+    "question": "What digit is inside the yellow square in the bottom-left?",
+    "target_phrase": "yellow square in the bottom-left",
+    "answer": "0",
+    "target_bbox": [
+      5,
+      154,
+      51,
+      200
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/220.png",
+    "question": "What shape is the green object in the top?",
+    "target_phrase": "green object in the top",
+    "answer": "square",
+    "target_bbox": [
+      100,
+      20,
+      142,
+      62
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/221.png",
+    "question": "What color is the circle in the left?",
+    "target_phrase": "circle in the left",
+    "answer": "green",
+    "target_bbox": [
+      21,
+      98,
+      65,
+      142
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/222.png",
+    "question": "What digit is inside the green square in the bottom-left?",
+    "target_phrase": "green square in the bottom-left",
+    "answer": "0",
+    "target_bbox": [
+      20,
+      175,
+      60,
+      215
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/223.png",
+    "question": "What shape is the green object in the bottom-left?",
+    "target_phrase": "green object in the bottom-left",
+    "answer": "circle",
+    "target_bbox": [
+      27,
+      158,
+      65,
+      196
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/224.png",
+    "question": "What shape is the green object in the top-left?",
+    "target_phrase": "green object in the top-left",
+    "answer": "triangle",
+    "target_bbox": [
+      17,
+      33,
+      41,
+      57
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/225.png",
+    "question": "What color is the triangle in the top-right?",
+    "target_phrase": "triangle in the top-right",
+    "answer": "red",
+    "target_bbox": [
+      170,
+      24,
+      210,
+      64
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/226.png",
+    "question": "What digit is inside the red circle in the top?",
+    "target_phrase": "red circle in the top",
+    "answer": "5",
+    "target_bbox": [
+      88,
+      25,
+      116,
+      53
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/227.png",
+    "question": "What digit is inside the green circle in the top?",
+    "target_phrase": "green circle in the top",
+    "answer": "0",
+    "target_bbox": [
+      80,
+      8,
+      126,
+      54
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/228.png",
+    "question": "What shape is the yellow object in the bottom-right?",
+    "target_phrase": "yellow object in the bottom-right",
+    "answer": "rectangle",
+    "target_bbox": [
+      164,
+      183,
+      192,
+      211
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/229.png",
+    "question": "What digit is inside the orange rectangle in the center?",
+    "target_phrase": "orange rectangle in the center",
+    "answer": "1",
+    "target_bbox": [
+      88,
+      93,
+      132,
+      137
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/230.png",
+    "question": "What digit is inside the red square in the bottom-left?",
+    "target_phrase": "red square in the bottom-left",
+    "answer": "1",
+    "target_bbox": [
+      19,
+      171,
+      59,
+      211
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/231.png",
+    "question": "What digit is inside the purple rectangle in the bottom?",
+    "target_phrase": "purple rectangle in the bottom",
+    "answer": "9",
+    "target_bbox": [
+      90,
+      174,
+      132,
+      216
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/232.png",
+    "question": "What color is the square in the center?",
+    "target_phrase": "square in the center",
+    "answer": "blue",
+    "target_bbox": [
+      89,
+      87,
+      131,
+      129
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/233.png",
+    "question": "What shape is the green object in the left?",
+    "target_phrase": "green object in the left",
+    "answer": "triangle",
+    "target_bbox": [
+      17,
+      106,
+      43,
+      132
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/234.png",
+    "question": "What letter is inside the blue square in the top-left?",
+    "target_phrase": "blue square in the top-left",
+    "answer": "I",
+    "target_bbox": [
+      22,
+      23,
+      64,
+      65
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/235.png",
+    "question": "What letter is inside the yellow triangle in the bottom?",
+    "target_phrase": "yellow triangle in the bottom",
+    "answer": "D",
+    "target_bbox": [
+      105,
+      181,
+      133,
+      209
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/236.png",
+    "question": "What letter is inside the blue triangle in the bottom-right?",
+    "target_phrase": "blue triangle in the bottom-right",
+    "answer": "A",
+    "target_bbox": [
+      180,
+      174,
+      204,
+      198
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/237.png",
+    "question": "What letter is inside the red triangle in the bottom-right?",
+    "target_phrase": "red triangle in the bottom-right",
+    "answer": "G",
+    "target_bbox": [
+      167,
+      173,
+      191,
+      197
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/238.png",
+    "question": "What shape is the purple object in the bottom-left?",
+    "target_phrase": "purple object in the bottom-left",
+    "answer": "circle",
+    "target_bbox": [
+      18,
+      179,
+      48,
+      209
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/239.png",
+    "question": "What color is the triangle in the left?",
+    "target_phrase": "triangle in the left",
+    "answer": "yellow",
+    "target_bbox": [
+      21,
+      86,
+      65,
+      130
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/240.png",
+    "question": "What letter is inside the yellow rectangle in the bottom-left?",
+    "target_phrase": "yellow rectangle in the bottom-left",
+    "answer": "A",
+    "target_bbox": [
+      12,
+      159,
+      56,
+      203
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/241.png",
+    "question": "What shape is the yellow object in the bottom-left?",
+    "target_phrase": "yellow object in the bottom-left",
+    "answer": "triangle",
+    "target_bbox": [
+      28,
+      182,
+      52,
+      206
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/242.png",
+    "question": "What letter is inside the green triangle in the right?",
+    "target_phrase": "green triangle in the right",
+    "answer": "D",
+    "target_bbox": [
+      159,
+      98,
+      203,
+      142
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/243.png",
+    "question": "What digit is inside the blue circle in the top?",
+    "target_phrase": "blue circle in the top",
+    "answer": "6",
+    "target_bbox": [
+      104,
+      22,
+      140,
+      58
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/244.png",
+    "question": "What color is the rectangle in the top-right?",
+    "target_phrase": "rectangle in the top-right",
+    "answer": "yellow",
+    "target_bbox": [
+      165,
+      18,
+      203,
+      56
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/245.png",
+    "question": "What color is the square in the bottom-right?",
+    "target_phrase": "square in the bottom-right",
+    "answer": "red",
+    "target_bbox": [
+      163,
+      161,
+      201,
+      199
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/246.png",
+    "question": "What color is the circle in the right?",
+    "target_phrase": "circle in the right",
+    "answer": "blue",
+    "target_bbox": [
+      162,
+      79,
+      210,
+      127
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/247.png",
+    "question": "What shape is the purple object in the left?",
+    "target_phrase": "purple object in the left",
+    "answer": "triangle",
+    "target_bbox": [
+      17,
+      97,
+      65,
+      145
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/248.png",
+    "question": "What digit is inside the blue triangle in the top?",
+    "target_phrase": "blue triangle in the top",
+    "answer": "9",
+    "target_bbox": [
+      98,
+      26,
+      134,
+      62
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/249.png",
+    "question": "What color is the circle in the bottom-right?",
+    "target_phrase": "circle in the bottom-right",
+    "answer": "yellow",
+    "target_bbox": [
+      176,
+      165,
+      212,
+      201
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/250.png",
+    "question": "What color is the triangle in the bottom-left?",
+    "target_phrase": "triangle in the bottom-left",
+    "answer": "orange",
+    "target_bbox": [
+      20,
+      165,
+      48,
+      193
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/251.png",
+    "question": "What digit is inside the orange rectangle in the left?",
+    "target_phrase": "orange rectangle in the left",
+    "answer": "5",
+    "target_bbox": [
+      24,
+      93,
+      68,
+      137
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/252.png",
+    "question": "What letter is inside the yellow circle in the top-right?",
+    "target_phrase": "yellow circle in the top-right",
+    "answer": "C",
+    "target_bbox": [
+      168,
+      24,
+      194,
+      50
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/253.png",
+    "question": "What digit is inside the red triangle in the left?",
+    "target_phrase": "red triangle in the left",
+    "answer": "6",
+    "target_bbox": [
+      19,
+      96,
+      65,
+      142
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/254.png",
+    "question": "What digit is inside the green triangle in the center?",
+    "target_phrase": "green triangle in the center",
+    "answer": "0",
+    "target_bbox": [
+      86,
+      89,
+      120,
+      123
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/255.png",
+    "question": "What letter is inside the red rectangle in the right?",
+    "target_phrase": "red rectangle in the right",
+    "answer": "J",
+    "target_bbox": [
+      169,
+      101,
+      199,
+      131
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/256.png",
+    "question": "What color is the circle in the right?",
+    "target_phrase": "circle in the right",
+    "answer": "blue",
+    "target_bbox": [
+      173,
+      105,
+      205,
+      137
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/257.png",
+    "question": "What shape is the orange object in the bottom?",
+    "target_phrase": "orange object in the bottom",
+    "answer": "triangle",
+    "target_bbox": [
+      95,
+      175,
+      131,
+      211
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/258.png",
+    "question": "What color is the triangle in the center?",
+    "target_phrase": "triangle in the center",
+    "answer": "orange",
+    "target_bbox": [
+      96,
+      92,
+      120,
+      116
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/259.png",
+    "question": "What shape is the purple object in the bottom-left?",
+    "target_phrase": "purple object in the bottom-left",
+    "answer": "triangle",
+    "target_bbox": [
+      18,
+      166,
+      48,
+      196
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/260.png",
+    "question": "What letter is inside the blue rectangle in the center?",
+    "target_phrase": "blue rectangle in the center",
+    "answer": "G",
+    "target_bbox": [
+      96,
+      92,
+      124,
+      120
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/261.png",
+    "question": "What letter is inside the orange triangle in the bottom-right?",
+    "target_phrase": "orange triangle in the bottom-right",
+    "answer": "J",
+    "target_bbox": [
+      161,
+      165,
+      207,
+      211
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/262.png",
+    "question": "What color is the triangle in the left?",
+    "target_phrase": "triangle in the left",
+    "answer": "green",
+    "target_bbox": [
+      24,
+      90,
+      66,
+      132
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/263.png",
+    "question": "What shape is the orange object in the bottom-left?",
+    "target_phrase": "orange object in the bottom-left",
+    "answer": "square",
+    "target_bbox": [
+      17,
+      169,
+      43,
+      195
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/264.png",
+    "question": "What letter is inside the red rectangle in the bottom?",
+    "target_phrase": "red rectangle in the bottom",
+    "answer": "F",
+    "target_bbox": [
+      100,
+      172,
+      124,
+      196
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/265.png",
+    "question": "What digit is inside the red rectangle in the right?",
+    "target_phrase": "red rectangle in the right",
+    "answer": "0",
+    "target_bbox": [
+      170,
+      104,
+      196,
+      130
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/266.png",
+    "question": "What color is the circle in the bottom-right?",
+    "target_phrase": "circle in the bottom-right",
+    "answer": "purple",
+    "target_bbox": [
+      156,
+      165,
+      204,
+      213
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/267.png",
+    "question": "What shape is the green object in the bottom-right?",
+    "target_phrase": "green object in the bottom-right",
+    "answer": "circle",
+    "target_bbox": [
+      165,
+      175,
+      199,
+      209
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/268.png",
+    "question": "What letter is inside the blue circle in the top-left?",
+    "target_phrase": "blue circle in the top-left",
+    "answer": "E",
+    "target_bbox": [
+      16,
+      12,
+      52,
+      48
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/269.png",
+    "question": "What shape is the purple object in the bottom-right?",
+    "target_phrase": "purple object in the bottom-right",
+    "answer": "square",
+    "target_bbox": [
+      169,
+      168,
+      205,
+      204
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/270.png",
+    "question": "What color is the rectangle in the center?",
+    "target_phrase": "rectangle in the center",
+    "answer": "orange",
+    "target_bbox": [
+      93,
+      92,
+      135,
+      134
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/271.png",
+    "question": "What color is the square in the left?",
+    "target_phrase": "square in the left",
+    "answer": "blue",
+    "target_bbox": [
+      7,
+      84,
+      51,
+      128
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/272.png",
+    "question": "What shape is the yellow object in the bottom-right?",
+    "target_phrase": "yellow object in the bottom-right",
+    "answer": "triangle",
+    "target_bbox": [
+      160,
+      160,
+      194,
+      194
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/273.png",
+    "question": "What shape is the purple object in the top-right?",
+    "target_phrase": "purple object in the top-right",
+    "answer": "triangle",
+    "target_bbox": [
+      171,
+      16,
+      209,
+      54
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/274.png",
+    "question": "What digit is inside the blue circle in the right?",
+    "target_phrase": "blue circle in the right",
+    "answer": "3",
+    "target_bbox": [
+      165,
+      106,
+      191,
+      132
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/275.png",
+    "question": "What shape is the red object in the top-right?",
+    "target_phrase": "red object in the top-right",
+    "answer": "rectangle",
+    "target_bbox": [
+      174,
+      18,
+      220,
+      64
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/276.png",
+    "question": "What letter is inside the orange triangle in the left?",
+    "target_phrase": "orange triangle in the left",
+    "answer": "I",
+    "target_bbox": [
+      19,
+      84,
+      57,
+      122
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/277.png",
+    "question": "What letter is inside the orange triangle in the bottom-left?",
+    "target_phrase": "orange triangle in the bottom-left",
+    "answer": "D",
+    "target_bbox": [
+      21,
+      178,
+      47,
+      204
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/278.png",
+    "question": "What letter is inside the green square in the left?",
+    "target_phrase": "green square in the left",
+    "answer": "E",
+    "target_bbox": [
+      17,
+      101,
+      51,
+      135
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/279.png",
+    "question": "What digit is inside the green triangle in the top-right?",
+    "target_phrase": "green triangle in the top-right",
+    "answer": "5",
+    "target_bbox": [
+      167,
+      22,
+      203,
+      58
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/280.png",
+    "question": "What color is the circle in the top-right?",
+    "target_phrase": "circle in the top-right",
+    "answer": "red",
+    "target_bbox": [
+      172,
+      27,
+      202,
+      57
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/281.png",
+    "question": "What letter is inside the purple circle in the top-left?",
+    "target_phrase": "purple circle in the top-left",
+    "answer": "C",
+    "target_bbox": [
+      32,
+      28,
+      56,
+      52
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/282.png",
+    "question": "What color is the rectangle in the left?",
+    "target_phrase": "rectangle in the left",
+    "answer": "blue",
+    "target_bbox": [
+      14,
+      98,
+      46,
+      130
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/283.png",
+    "question": "What color is the circle in the right?",
+    "target_phrase": "circle in the right",
+    "answer": "yellow",
+    "target_bbox": [
+      165,
+      93,
+      191,
+      119
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/284.png",
+    "question": "What color is the square in the top?",
+    "target_phrase": "square in the top",
+    "answer": "yellow",
+    "target_bbox": [
+      81,
+      14,
+      129,
+      62
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/285.png",
+    "question": "What shape is the purple object in the left?",
+    "target_phrase": "purple object in the left",
+    "answer": "rectangle",
+    "target_bbox": [
+      14,
+      91,
+      58,
+      135
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/286.png",
+    "question": "What letter is inside the orange rectangle in the bottom-left?",
+    "target_phrase": "orange rectangle in the bottom-left",
+    "answer": "H",
+    "target_bbox": [
+      28,
+      177,
+      64,
+      213
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/287.png",
+    "question": "What digit is inside the yellow square in the bottom?",
+    "target_phrase": "yellow square in the bottom",
+    "answer": "1",
+    "target_bbox": [
+      98,
+      175,
+      122,
+      199
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/288.png",
+    "question": "What shape is the blue object in the bottom-left?",
+    "target_phrase": "blue object in the bottom-left",
+    "answer": "circle",
+    "target_bbox": [
+      20,
+      157,
+      64,
+      201
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/289.png",
+    "question": "What letter is inside the blue rectangle in the bottom-left?",
+    "target_phrase": "blue rectangle in the bottom-left",
+    "answer": "F",
+    "target_bbox": [
+      6,
+      160,
+      50,
+      204
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/290.png",
+    "question": "What shape is the red object in the center?",
+    "target_phrase": "red object in the center",
+    "answer": "triangle",
+    "target_bbox": [
+      88,
+      92,
+      134,
+      138
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/291.png",
+    "question": "What shape is the purple object in the bottom-right?",
+    "target_phrase": "purple object in the bottom-right",
+    "answer": "rectangle",
+    "target_bbox": [
+      160,
+      157,
+      204,
+      201
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/292.png",
+    "question": "What letter is inside the purple triangle in the bottom-left?",
+    "target_phrase": "purple triangle in the bottom-left",
+    "answer": "C",
+    "target_bbox": [
+      21,
+      165,
+      59,
+      203
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/293.png",
+    "question": "What digit is inside the blue triangle in the top-left?",
+    "target_phrase": "blue triangle in the top-left",
+    "answer": "3",
+    "target_bbox": [
+      26,
+      14,
+      68,
+      56
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/294.png",
+    "question": "What color is the square in the right?",
+    "target_phrase": "square in the right",
+    "answer": "yellow",
+    "target_bbox": [
+      173,
+      96,
+      199,
+      122
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/295.png",
+    "question": "What color is the square in the bottom?",
+    "target_phrase": "square in the bottom",
+    "answer": "red",
+    "target_bbox": [
+      104,
+      179,
+      128,
+      203
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/296.png",
+    "question": "What color is the square in the top-left?",
+    "target_phrase": "square in the top-left",
+    "answer": "orange",
+    "target_bbox": [
+      16,
+      3,
+      64,
+      51
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/297.png",
+    "question": "What color is the rectangle in the center?",
+    "target_phrase": "rectangle in the center",
+    "answer": "purple",
+    "target_bbox": [
+      103,
+      101,
+      135,
+      133
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/298.png",
+    "question": "What color is the square in the top?",
+    "target_phrase": "square in the top",
+    "answer": "green",
+    "target_bbox": [
+      96,
+      14,
+      138,
+      56
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/299.png",
+    "question": "What shape is the blue object in the center?",
+    "target_phrase": "blue object in the center",
+    "answer": "circle",
+    "target_bbox": [
+      98,
+      97,
+      132,
+      131
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/300.png",
+    "question": "What shape is the blue object in the right?",
+    "target_phrase": "blue object in the right",
+    "answer": "square",
+    "target_bbox": [
+      176,
+      104,
+      202,
+      130
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/301.png",
+    "question": "What letter is inside the yellow circle in the top-left?",
+    "target_phrase": "yellow circle in the top-left",
+    "answer": "A",
+    "target_bbox": [
+      24,
+      11,
+      58,
+      45
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/302.png",
+    "question": "What shape is the green object in the left?",
+    "target_phrase": "green object in the left",
+    "answer": "square",
+    "target_bbox": [
+      15,
+      93,
+      41,
+      119
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/303.png",
+    "question": "What color is the square in the bottom?",
+    "target_phrase": "square in the bottom",
+    "answer": "yellow",
+    "target_bbox": [
+      87,
+      163,
+      129,
+      205
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/304.png",
+    "question": "What shape is the yellow object in the top?",
+    "target_phrase": "yellow object in the top",
+    "answer": "triangle",
+    "target_bbox": [
+      95,
+      20,
+      123,
+      48
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/305.png",
+    "question": "What letter is inside the red triangle in the center?",
+    "target_phrase": "red triangle in the center",
+    "answer": "F",
+    "target_bbox": [
+      84,
+      89,
+      126,
+      131
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/306.png",
+    "question": "What shape is the green object in the left?",
+    "target_phrase": "green object in the left",
+    "answer": "rectangle",
+    "target_bbox": [
+      15,
+      82,
+      61,
+      128
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/307.png",
+    "question": "What shape is the yellow object in the bottom-left?",
+    "target_phrase": "yellow object in the bottom-left",
+    "answer": "triangle",
+    "target_bbox": [
+      25,
+      162,
+      59,
+      196
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/308.png",
+    "question": "What letter is inside the green circle in the bottom-right?",
+    "target_phrase": "green circle in the bottom-right",
+    "answer": "E",
+    "target_bbox": [
+      167,
+      160,
+      207,
+      200
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/309.png",
+    "question": "What shape is the yellow object in the center?",
+    "target_phrase": "yellow object in the center",
+    "answer": "triangle",
+    "target_bbox": [
+      97,
+      90,
+      121,
+      114
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/310.png",
+    "question": "What color is the triangle in the bottom-left?",
+    "target_phrase": "triangle in the bottom-left",
+    "answer": "red",
+    "target_bbox": [
+      25,
+      162,
+      59,
+      196
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/311.png",
+    "question": "What digit is inside the green rectangle in the center?",
+    "target_phrase": "green rectangle in the center",
+    "answer": "1",
+    "target_bbox": [
+      102,
+      95,
+      136,
+      129
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/312.png",
+    "question": "What letter is inside the purple square in the top-right?",
+    "target_phrase": "purple square in the top-right",
+    "answer": "G",
+    "target_bbox": [
+      168,
+      11,
+      212,
+      55
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/313.png",
+    "question": "What digit is inside the orange circle in the bottom-right?",
+    "target_phrase": "orange circle in the bottom-right",
+    "answer": "2",
+    "target_bbox": [
+      176,
+      168,
+      204,
+      196
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/314.png",
+    "question": "What shape is the yellow object in the center?",
+    "target_phrase": "yellow object in the center",
+    "answer": "triangle",
+    "target_bbox": [
+      95,
+      102,
+      131,
+      138
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/315.png",
+    "question": "What color is the square in the bottom-left?",
+    "target_phrase": "square in the bottom-left",
+    "answer": "orange",
+    "target_bbox": [
+      21,
+      177,
+      49,
+      205
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/316.png",
+    "question": "What letter is inside the orange rectangle in the top-right?",
+    "target_phrase": "orange rectangle in the top-right",
+    "answer": "G",
+    "target_bbox": [
+      164,
+      18,
+      194,
+      48
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/317.png",
+    "question": "What shape is the blue object in the top-right?",
+    "target_phrase": "blue object in the top-right",
+    "answer": "circle",
+    "target_bbox": [
+      183,
+      14,
+      211,
+      42
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/318.png",
+    "question": "What letter is inside the green circle in the bottom-right?",
+    "target_phrase": "green circle in the bottom-right",
+    "answer": "J",
+    "target_bbox": [
+      155,
+      168,
+      201,
+      214
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/319.png",
+    "question": "What letter is inside the purple square in the bottom?",
+    "target_phrase": "purple square in the bottom",
+    "answer": "C",
+    "target_bbox": [
+      90,
+      158,
+      136,
+      204
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/320.png",
+    "question": "What letter is inside the green circle in the top?",
+    "target_phrase": "green circle in the top",
+    "answer": "C",
+    "target_bbox": [
+      94,
+      14,
+      134,
+      54
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/321.png",
+    "question": "What letter is inside the green circle in the bottom-left?",
+    "target_phrase": "green circle in the bottom-left",
+    "answer": "C",
+    "target_bbox": [
+      20,
+      166,
+      44,
+      190
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/322.png",
+    "question": "What shape is the purple object in the top?",
+    "target_phrase": "purple object in the top",
+    "answer": "circle",
+    "target_bbox": [
+      97,
+      29,
+      129,
+      61
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/323.png",
+    "question": "What shape is the orange object in the bottom-left?",
+    "target_phrase": "orange object in the bottom-left",
+    "answer": "square",
+    "target_bbox": [
+      35,
+      178,
+      59,
+      202
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/324.png",
+    "question": "What shape is the orange object in the top-left?",
+    "target_phrase": "orange object in the top-left",
+    "answer": "triangle",
+    "target_bbox": [
+      8,
+      20,
+      46,
+      58
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/325.png",
+    "question": "What letter is inside the orange square in the right?",
+    "target_phrase": "orange square in the right",
+    "answer": "J",
+    "target_bbox": [
+      167,
+      102,
+      193,
+      128
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/326.png",
+    "question": "What digit is inside the yellow triangle in the bottom-right?",
+    "target_phrase": "yellow triangle in the bottom-right",
+    "answer": "8",
+    "target_bbox": [
+      161,
+      162,
+      199,
+      200
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/327.png",
+    "question": "What color is the triangle in the top-left?",
+    "target_phrase": "triangle in the top-left",
+    "answer": "blue",
+    "target_bbox": [
+      11,
+      9,
+      51,
+      49
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/328.png",
+    "question": "What digit is inside the purple square in the top?",
+    "target_phrase": "purple square in the top",
+    "answer": "1",
+    "target_bbox": [
+      104,
+      19,
+      132,
+      47
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/329.png",
+    "question": "What color is the rectangle in the bottom-left?",
+    "target_phrase": "rectangle in the bottom-left",
+    "answer": "yellow",
+    "target_bbox": [
+      28,
+      176,
+      62,
+      210
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/330.png",
+    "question": "What letter is inside the red square in the center?",
+    "target_phrase": "red square in the center",
+    "answer": "H",
+    "target_bbox": [
+      97,
+      83,
+      143,
+      129
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/331.png",
+    "question": "What color is the square in the top-right?",
+    "target_phrase": "square in the top-right",
+    "answer": "blue",
+    "target_bbox": [
+      166,
+      10,
+      212,
+      56
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/332.png",
+    "question": "What digit is inside the blue rectangle in the top-left?",
+    "target_phrase": "blue rectangle in the top-left",
+    "answer": "7",
+    "target_bbox": [
+      19,
+      26,
+      43,
+      50
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/333.png",
+    "question": "What shape is the orange object in the center?",
+    "target_phrase": "orange object in the center",
+    "answer": "circle",
+    "target_bbox": [
+      82,
+      82,
+      126,
+      126
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/334.png",
+    "question": "What letter is inside the purple square in the top-right?",
+    "target_phrase": "purple square in the top-right",
+    "answer": "B",
+    "target_bbox": [
+      175,
+      32,
+      205,
+      62
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/335.png",
+    "question": "What shape is the yellow object in the left?",
+    "target_phrase": "yellow object in the left",
+    "answer": "square",
+    "target_bbox": [
+      12,
+      92,
+      46,
+      126
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/336.png",
+    "question": "What digit is inside the purple circle in the bottom-right?",
+    "target_phrase": "purple circle in the bottom-right",
+    "answer": "2",
+    "target_bbox": [
+      163,
+      173,
+      207,
+      217
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/337.png",
+    "question": "What digit is inside the green square in the top?",
+    "target_phrase": "green square in the top",
+    "answer": "8",
+    "target_bbox": [
+      91,
+      12,
+      133,
+      54
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/338.png",
+    "question": "What letter is inside the blue square in the top?",
+    "target_phrase": "blue square in the top",
+    "answer": "D",
+    "target_bbox": [
+      84,
+      18,
+      122,
+      56
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/339.png",
+    "question": "What letter is inside the blue circle in the bottom-right?",
+    "target_phrase": "blue circle in the bottom-right",
+    "answer": "C",
+    "target_bbox": [
+      164,
+      183,
+      192,
+      211
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/340.png",
+    "question": "What shape is the orange object in the bottom-left?",
+    "target_phrase": "orange object in the bottom-left",
+    "answer": "circle",
+    "target_bbox": [
+      19,
+      160,
+      59,
+      200
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/341.png",
+    "question": "What color is the square in the left?",
+    "target_phrase": "square in the left",
+    "answer": "blue",
+    "target_bbox": [
+      34,
+      92,
+      58,
+      116
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/342.png",
+    "question": "What letter is inside the yellow triangle in the bottom?",
+    "target_phrase": "yellow triangle in the bottom",
+    "answer": "G",
+    "target_bbox": [
+      109,
+      165,
+      135,
+      191
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/343.png",
+    "question": "What letter is inside the orange rectangle in the bottom-left?",
+    "target_phrase": "orange rectangle in the bottom-left",
+    "answer": "I",
+    "target_bbox": [
+      16,
+      172,
+      64,
+      220
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/344.png",
+    "question": "What letter is inside the yellow circle in the bottom-right?",
+    "target_phrase": "yellow circle in the bottom-right",
+    "answer": "C",
+    "target_bbox": [
+      171,
+      172,
+      203,
+      204
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/345.png",
+    "question": "What digit is inside the red circle in the center?",
+    "target_phrase": "red circle in the center",
+    "answer": "7",
+    "target_bbox": [
+      105,
+      96,
+      131,
+      122
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/346.png",
+    "question": "What color is the rectangle in the top-right?",
+    "target_phrase": "rectangle in the top-right",
+    "answer": "green",
+    "target_bbox": [
+      183,
+      31,
+      209,
+      57
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/347.png",
+    "question": "What color is the triangle in the bottom?",
+    "target_phrase": "triangle in the bottom",
+    "answer": "orange",
+    "target_bbox": [
+      106,
+      170,
+      138,
+      202
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/348.png",
+    "question": "What digit is inside the yellow circle in the bottom?",
+    "target_phrase": "yellow circle in the bottom",
+    "answer": "4",
+    "target_bbox": [
+      100,
+      165,
+      136,
+      201
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/349.png",
+    "question": "What letter is inside the yellow square in the right?",
+    "target_phrase": "yellow square in the right",
+    "answer": "J",
+    "target_bbox": [
+      182,
+      99,
+      212,
+      129
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/350.png",
+    "question": "What color is the rectangle in the bottom?",
+    "target_phrase": "rectangle in the bottom",
+    "answer": "orange",
+    "target_bbox": [
+      104,
+      183,
+      132,
+      211
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/351.png",
+    "question": "What shape is the orange object in the top?",
+    "target_phrase": "orange object in the top",
+    "answer": "circle",
+    "target_bbox": [
+      102,
+      14,
+      140,
+      52
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/352.png",
+    "question": "What color is the rectangle in the bottom?",
+    "target_phrase": "rectangle in the bottom",
+    "answer": "orange",
+    "target_bbox": [
+      96,
+      175,
+      138,
+      217
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/353.png",
+    "question": "What letter is inside the purple square in the top-right?",
+    "target_phrase": "purple square in the top-right",
+    "answer": "J",
+    "target_bbox": [
+      162,
+      14,
+      194,
+      46
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/354.png",
+    "question": "What digit is inside the blue rectangle in the bottom-left?",
+    "target_phrase": "blue rectangle in the bottom-left",
+    "answer": "1",
+    "target_bbox": [
+      9,
+      169,
+      45,
+      205
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/355.png",
+    "question": "What letter is inside the blue rectangle in the bottom-left?",
+    "target_phrase": "blue rectangle in the bottom-left",
+    "answer": "A",
+    "target_bbox": [
+      34,
+      184,
+      60,
+      210
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/356.png",
+    "question": "What color is the circle in the bottom-left?",
+    "target_phrase": "circle in the bottom-left",
+    "answer": "orange",
+    "target_bbox": [
+      7,
+      172,
+      47,
+      212
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/357.png",
+    "question": "What color is the circle in the top-left?",
+    "target_phrase": "circle in the top-left",
+    "answer": "red",
+    "target_bbox": [
+      18,
+      11,
+      54,
+      47
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/358.png",
+    "question": "What digit is inside the purple triangle in the bottom-left?",
+    "target_phrase": "purple triangle in the bottom-left",
+    "answer": "4",
+    "target_bbox": [
+      22,
+      180,
+      46,
+      204
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/359.png",
+    "question": "What shape is the orange object in the top?",
+    "target_phrase": "orange object in the top",
+    "answer": "circle",
+    "target_bbox": [
+      83,
+      9,
+      125,
+      51
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/360.png",
+    "question": "What shape is the yellow object in the bottom-right?",
+    "target_phrase": "yellow object in the bottom-right",
+    "answer": "rectangle",
+    "target_bbox": [
+      180,
+      165,
+      212,
+      197
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/361.png",
+    "question": "What letter is inside the red triangle in the center?",
+    "target_phrase": "red triangle in the center",
+    "answer": "A",
+    "target_bbox": [
+      90,
+      91,
+      130,
+      131
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/362.png",
+    "question": "What shape is the red object in the bottom-right?",
+    "target_phrase": "red object in the bottom-right",
+    "answer": "square",
+    "target_bbox": [
+      160,
+      178,
+      194,
+      212
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/363.png",
+    "question": "What shape is the purple object in the bottom-left?",
+    "target_phrase": "purple object in the bottom-left",
+    "answer": "square",
+    "target_bbox": [
+      8,
+      158,
+      52,
+      202
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/364.png",
+    "question": "What color is the square in the top?",
+    "target_phrase": "square in the top",
+    "answer": "red",
+    "target_bbox": [
+      86,
+      18,
+      124,
+      56
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/365.png",
+    "question": "What letter is inside the green circle in the top-left?",
+    "target_phrase": "green circle in the top-left",
+    "answer": "H",
+    "target_bbox": [
+      24,
+      25,
+      48,
+      49
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/366.png",
+    "question": "What letter is inside the purple circle in the bottom-left?",
+    "target_phrase": "purple circle in the bottom-left",
+    "answer": "F",
+    "target_bbox": [
+      26,
+      178,
+      54,
+      206
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/367.png",
+    "question": "What digit is inside the blue triangle in the bottom-right?",
+    "target_phrase": "blue triangle in the bottom-right",
+    "answer": "8",
+    "target_bbox": [
+      171,
+      178,
+      203,
+      210
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/368.png",
+    "question": "What shape is the purple object in the left?",
+    "target_phrase": "purple object in the left",
+    "answer": "square",
+    "target_bbox": [
+      14,
+      100,
+      40,
+      126
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/369.png",
+    "question": "What digit is inside the orange square in the top-right?",
+    "target_phrase": "orange square in the top-right",
+    "answer": "6",
+    "target_bbox": [
+      166,
+      18,
+      196,
+      48
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/370.png",
+    "question": "What letter is inside the blue circle in the bottom-left?",
+    "target_phrase": "blue circle in the bottom-left",
+    "answer": "D",
+    "target_bbox": [
+      29,
+      163,
+      65,
+      199
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/371.png",
+    "question": "What digit is inside the yellow rectangle in the center?",
+    "target_phrase": "yellow rectangle in the center",
+    "answer": "4",
+    "target_bbox": [
+      89,
+      93,
+      123,
+      127
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/372.png",
+    "question": "What letter is inside the green rectangle in the bottom-right?",
+    "target_phrase": "green rectangle in the bottom-right",
+    "answer": "F",
+    "target_bbox": [
+      176,
+      166,
+      200,
+      190
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/373.png",
+    "question": "What shape is the green object in the top?",
+    "target_phrase": "green object in the top",
+    "answer": "square",
+    "target_bbox": [
+      92,
+      23,
+      130,
+      61
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/374.png",
+    "question": "What shape is the blue object in the bottom-left?",
+    "target_phrase": "blue object in the bottom-left",
+    "answer": "square",
+    "target_bbox": [
+      23,
+      166,
+      55,
+      198
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/375.png",
+    "question": "What color is the square in the bottom?",
+    "target_phrase": "square in the bottom",
+    "answer": "orange",
+    "target_bbox": [
+      95,
+      176,
+      137,
+      218
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/376.png",
+    "question": "What digit is inside the yellow square in the center?",
+    "target_phrase": "yellow square in the center",
+    "answer": "1",
+    "target_bbox": [
+      90,
+      92,
+      114,
+      116
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/377.png",
+    "question": "What digit is inside the blue square in the bottom?",
+    "target_phrase": "blue square in the bottom",
+    "answer": "2",
+    "target_bbox": [
+      100,
+      164,
+      126,
+      190
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/378.png",
+    "question": "What color is the square in the bottom?",
+    "target_phrase": "square in the bottom",
+    "answer": "blue",
+    "target_bbox": [
+      101,
+      178,
+      137,
+      214
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/379.png",
+    "question": "What color is the triangle in the top-right?",
+    "target_phrase": "triangle in the top-right",
+    "answer": "orange",
+    "target_bbox": [
+      159,
+      12,
+      201,
+      54
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/380.png",
+    "question": "What shape is the green object in the left?",
+    "target_phrase": "green object in the left",
+    "answer": "square",
+    "target_bbox": [
+      20,
+      94,
+      44,
+      118
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/381.png",
+    "question": "What letter is inside the red square in the left?",
+    "target_phrase": "red square in the left",
+    "answer": "D",
+    "target_bbox": [
+      19,
+      108,
+      45,
+      134
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/382.png",
+    "question": "What color is the triangle in the bottom-left?",
+    "target_phrase": "triangle in the bottom-left",
+    "answer": "purple",
+    "target_bbox": [
+      14,
+      182,
+      44,
+      212
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/383.png",
+    "question": "What color is the triangle in the bottom?",
+    "target_phrase": "triangle in the bottom",
+    "answer": "red",
+    "target_bbox": [
+      96,
+      178,
+      130,
+      212
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/384.png",
+    "question": "What letter is inside the green triangle in the right?",
+    "target_phrase": "green triangle in the right",
+    "answer": "B",
+    "target_bbox": [
+      167,
+      83,
+      207,
+      123
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/385.png",
+    "question": "What color is the circle in the center?",
+    "target_phrase": "circle in the center",
+    "answer": "green",
+    "target_bbox": [
+      82,
+      98,
+      126,
+      142
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/386.png",
+    "question": "What letter is inside the purple circle in the center?",
+    "target_phrase": "purple circle in the center",
+    "answer": "C",
+    "target_bbox": [
+      95,
+      105,
+      125,
+      135
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/387.png",
+    "question": "What shape is the purple object in the top-right?",
+    "target_phrase": "purple object in the top-right",
+    "answer": "triangle",
+    "target_bbox": [
+      164,
+      27,
+      192,
+      55
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/388.png",
+    "question": "What letter is inside the red triangle in the center?",
+    "target_phrase": "red triangle in the center",
+    "answer": "F",
+    "target_bbox": [
+      92,
+      89,
+      130,
+      127
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/389.png",
+    "question": "What letter is inside the purple rectangle in the bottom-right?",
+    "target_phrase": "purple rectangle in the bottom-right",
+    "answer": "B",
+    "target_bbox": [
+      165,
+      180,
+      195,
+      210
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/390.png",
+    "question": "What digit is inside the green square in the top-right?",
+    "target_phrase": "green square in the top-right",
+    "answer": "8",
+    "target_bbox": [
+      166,
+      23,
+      192,
+      49
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/391.png",
+    "question": "What digit is inside the green triangle in the top?",
+    "target_phrase": "green triangle in the top",
+    "answer": "8",
+    "target_bbox": [
+      92,
+      21,
+      128,
+      57
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/392.png",
+    "question": "What shape is the green object in the top-left?",
+    "target_phrase": "green object in the top-left",
+    "answer": "rectangle",
+    "target_bbox": [
+      12,
+      10,
+      56,
+      54
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/393.png",
+    "question": "What digit is inside the orange square in the top-left?",
+    "target_phrase": "orange square in the top-left",
+    "answer": "9",
+    "target_bbox": [
+      32,
+      32,
+      62,
+      62
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/394.png",
+    "question": "What color is the square in the bottom-right?",
+    "target_phrase": "square in the bottom-right",
+    "answer": "green",
+    "target_bbox": [
+      160,
+      158,
+      198,
+      196
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/395.png",
+    "question": "What color is the triangle in the bottom-left?",
+    "target_phrase": "triangle in the bottom-left",
+    "answer": "yellow",
+    "target_bbox": [
+      16,
+      176,
+      58,
+      218
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/396.png",
+    "question": "What color is the square in the top-right?",
+    "target_phrase": "square in the top-right",
+    "answer": "green",
+    "target_bbox": [
+      177,
+      16,
+      203,
+      42
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/397.png",
+    "question": "What letter is inside the yellow circle in the left?",
+    "target_phrase": "yellow circle in the left",
+    "answer": "F",
+    "target_bbox": [
+      15,
+      100,
+      43,
+      128
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/398.png",
+    "question": "What color is the triangle in the top-left?",
+    "target_phrase": "triangle in the top-left",
+    "answer": "green",
+    "target_bbox": [
+      11,
+      27,
+      51,
+      67
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/399.png",
+    "question": "What color is the circle in the right?",
+    "target_phrase": "circle in the right",
+    "answer": "red",
+    "target_bbox": [
+      173,
+      99,
+      213,
+      139
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/400.png",
+    "question": "What digit is inside the green rectangle in the bottom?",
+    "target_phrase": "green rectangle in the bottom",
+    "answer": "8",
+    "target_bbox": [
+      96,
+      177,
+      128,
+      209
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/401.png",
+    "question": "What digit is inside the orange triangle in the left?",
+    "target_phrase": "orange triangle in the left",
+    "answer": "4",
+    "target_bbox": [
+      13,
+      100,
+      43,
+      130
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/402.png",
+    "question": "What shape is the purple object in the bottom-left?",
+    "target_phrase": "purple object in the bottom-left",
+    "answer": "triangle",
+    "target_bbox": [
+      25,
+      156,
+      67,
+      198
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/403.png",
+    "question": "What digit is inside the orange circle in the bottom?",
+    "target_phrase": "orange circle in the bottom",
+    "answer": "2",
+    "target_bbox": [
+      97,
+      173,
+      129,
+      205
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/404.png",
+    "question": "What letter is inside the yellow square in the bottom?",
+    "target_phrase": "yellow square in the bottom",
+    "answer": "H",
+    "target_bbox": [
+      94,
+      157,
+      140,
+      203
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/405.png",
+    "question": "What shape is the red object in the top-left?",
+    "target_phrase": "red object in the top-left",
+    "answer": "triangle",
+    "target_bbox": [
+      20,
+      26,
+      46,
+      52
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/406.png",
+    "question": "What digit is inside the purple circle in the center?",
+    "target_phrase": "purple circle in the center",
+    "answer": "2",
+    "target_bbox": [
+      105,
+      97,
+      139,
+      131
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/407.png",
+    "question": "What letter is inside the green rectangle in the top?",
+    "target_phrase": "green rectangle in the top",
+    "answer": "J",
+    "target_bbox": [
+      94,
+      25,
+      138,
+      69
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/408.png",
+    "question": "What color is the square in the top-left?",
+    "target_phrase": "square in the top-left",
+    "answer": "green",
+    "target_bbox": [
+      12,
+      17,
+      54,
+      59
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/409.png",
+    "question": "What shape is the orange object in the top-left?",
+    "target_phrase": "orange object in the top-left",
+    "answer": "rectangle",
+    "target_bbox": [
+      27,
+      26,
+      53,
+      52
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/410.png",
+    "question": "What letter is inside the yellow circle in the bottom?",
+    "target_phrase": "yellow circle in the bottom",
+    "answer": "A",
+    "target_bbox": [
+      90,
+      168,
+      122,
+      200
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/411.png",
+    "question": "What letter is inside the orange square in the top-left?",
+    "target_phrase": "orange square in the top-left",
+    "answer": "I",
+    "target_bbox": [
+      13,
+      10,
+      53,
+      50
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/412.png",
+    "question": "What digit is inside the green square in the bottom-left?",
+    "target_phrase": "green square in the bottom-left",
+    "answer": "5",
+    "target_bbox": [
+      23,
+      163,
+      55,
+      195
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/413.png",
+    "question": "What digit is inside the blue triangle in the left?",
+    "target_phrase": "blue triangle in the left",
+    "answer": "2",
+    "target_bbox": [
+      21,
+      104,
+      55,
+      138
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/414.png",
+    "question": "What digit is inside the yellow rectangle in the left?",
+    "target_phrase": "yellow rectangle in the left",
+    "answer": "2",
+    "target_bbox": [
+      26,
+      99,
+      66,
+      139
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/415.png",
+    "question": "What color is the square in the top?",
+    "target_phrase": "square in the top",
+    "answer": "orange",
+    "target_bbox": [
+      98,
+      19,
+      128,
+      49
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/416.png",
+    "question": "What digit is inside the purple square in the top-left?",
+    "target_phrase": "purple square in the top-left",
+    "answer": "9",
+    "target_bbox": [
+      19,
+      29,
+      47,
+      57
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/417.png",
+    "question": "What digit is inside the green circle in the top?",
+    "target_phrase": "green circle in the top",
+    "answer": "9",
+    "target_bbox": [
+      91,
+      24,
+      131,
+      64
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/418.png",
+    "question": "What shape is the orange object in the top?",
+    "target_phrase": "orange object in the top",
+    "answer": "square",
+    "target_bbox": [
+      88,
+      7,
+      134,
+      53
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/419.png",
+    "question": "What letter is inside the red square in the bottom?",
+    "target_phrase": "red square in the bottom",
+    "answer": "E",
+    "target_bbox": [
+      108,
+      182,
+      132,
+      206
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/420.png",
+    "question": "What letter is inside the blue triangle in the bottom-right?",
+    "target_phrase": "blue triangle in the bottom-right",
+    "answer": "E",
+    "target_bbox": [
+      169,
+      180,
+      193,
+      204
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/421.png",
+    "question": "What shape is the green object in the bottom?",
+    "target_phrase": "green object in the bottom",
+    "answer": "triangle",
+    "target_bbox": [
+      101,
+      171,
+      139,
+      209
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/422.png",
+    "question": "What shape is the blue object in the right?",
+    "target_phrase": "blue object in the right",
+    "answer": "triangle",
+    "target_bbox": [
+      163,
+      88,
+      207,
+      132
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/423.png",
+    "question": "What shape is the red object in the top-right?",
+    "target_phrase": "red object in the top-right",
+    "answer": "rectangle",
+    "target_bbox": [
+      173,
+      28,
+      205,
+      60
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/424.png",
+    "question": "What shape is the red object in the bottom?",
+    "target_phrase": "red object in the bottom",
+    "answer": "triangle",
+    "target_bbox": [
+      88,
+      162,
+      126,
+      200
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/425.png",
+    "question": "What shape is the green object in the left?",
+    "target_phrase": "green object in the left",
+    "answer": "square",
+    "target_bbox": [
+      22,
+      98,
+      52,
+      128
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/426.png",
+    "question": "What digit is inside the orange square in the right?",
+    "target_phrase": "orange square in the right",
+    "answer": "7",
+    "target_bbox": [
+      165,
+      103,
+      199,
+      137
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/427.png",
+    "question": "What letter is inside the blue triangle in the bottom?",
+    "target_phrase": "blue triangle in the bottom",
+    "answer": "C",
+    "target_bbox": [
+      91,
+      172,
+      139,
+      220
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/428.png",
+    "question": "What digit is inside the purple triangle in the top-left?",
+    "target_phrase": "purple triangle in the top-left",
+    "answer": "2",
+    "target_bbox": [
+      20,
+      14,
+      60,
+      54
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/429.png",
+    "question": "What color is the circle in the bottom-left?",
+    "target_phrase": "circle in the bottom-left",
+    "answer": "orange",
+    "target_bbox": [
+      21,
+      177,
+      49,
+      205
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/430.png",
+    "question": "What color is the square in the top-right?",
+    "target_phrase": "square in the top-right",
+    "answer": "yellow",
+    "target_bbox": [
+      161,
+      14,
+      201,
+      54
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/431.png",
+    "question": "What letter is inside the red triangle in the bottom-left?",
+    "target_phrase": "red triangle in the bottom-left",
+    "answer": "E",
+    "target_bbox": [
+      20,
+      174,
+      54,
+      208
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/432.png",
+    "question": "What color is the triangle in the top-left?",
+    "target_phrase": "triangle in the top-left",
+    "answer": "orange",
+    "target_bbox": [
+      23,
+      16,
+      67,
+      60
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/433.png",
+    "question": "What shape is the orange object in the bottom-right?",
+    "target_phrase": "orange object in the bottom-right",
+    "answer": "circle",
+    "target_bbox": [
+      163,
+      172,
+      191,
+      200
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/434.png",
+    "question": "What shape is the blue object in the center?",
+    "target_phrase": "blue object in the center",
+    "answer": "rectangle",
+    "target_bbox": [
+      91,
+      102,
+      125,
+      136
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/435.png",
+    "question": "What letter is inside the blue rectangle in the bottom?",
+    "target_phrase": "blue rectangle in the bottom",
+    "answer": "C",
+    "target_bbox": [
+      103,
+      172,
+      135,
+      204
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/436.png",
+    "question": "What letter is inside the green circle in the top?",
+    "target_phrase": "green circle in the top",
+    "answer": "J",
+    "target_bbox": [
+      93,
+      22,
+      127,
+      56
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/437.png",
+    "question": "What color is the rectangle in the top-left?",
+    "target_phrase": "rectangle in the top-left",
+    "answer": "orange",
+    "target_bbox": [
+      19,
+      31,
+      45,
+      57
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/438.png",
+    "question": "What letter is inside the purple square in the center?",
+    "target_phrase": "purple square in the center",
+    "answer": "C",
+    "target_bbox": [
+      90,
+      94,
+      116,
+      120
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/439.png",
+    "question": "What letter is inside the red rectangle in the top?",
+    "target_phrase": "red rectangle in the top",
+    "answer": "G",
+    "target_bbox": [
+      82,
+      24,
+      126,
+      68
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/440.png",
+    "question": "What shape is the red object in the bottom-left?",
+    "target_phrase": "red object in the bottom-left",
+    "answer": "triangle",
+    "target_bbox": [
+      11,
+      158,
+      57,
+      204
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/441.png",
+    "question": "What letter is inside the red circle in the top?",
+    "target_phrase": "red circle in the top",
+    "answer": "D",
+    "target_bbox": [
+      102,
+      24,
+      140,
+      62
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/442.png",
+    "question": "What digit is inside the yellow triangle in the top?",
+    "target_phrase": "yellow triangle in the top",
+    "answer": "4",
+    "target_bbox": [
+      92,
+      18,
+      128,
+      54
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/443.png",
+    "question": "What shape is the red object in the top-left?",
+    "target_phrase": "red object in the top-left",
+    "answer": "triangle",
+    "target_bbox": [
+      14,
+      27,
+      52,
+      65
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/444.png",
+    "question": "What letter is inside the yellow triangle in the bottom?",
+    "target_phrase": "yellow triangle in the bottom",
+    "answer": "G",
+    "target_bbox": [
+      90,
+      160,
+      134,
+      204
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/445.png",
+    "question": "What letter is inside the green triangle in the bottom-left?",
+    "target_phrase": "green triangle in the bottom-left",
+    "answer": "A",
+    "target_bbox": [
+      13,
+      165,
+      61,
+      213
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/446.png",
+    "question": "What digit is inside the green rectangle in the top?",
+    "target_phrase": "green rectangle in the top",
+    "answer": "1",
+    "target_bbox": [
+      83,
+      20,
+      123,
+      60
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/447.png",
+    "question": "What color is the square in the top?",
+    "target_phrase": "square in the top",
+    "answer": "green",
+    "target_bbox": [
+      96,
+      6,
+      142,
+      52
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/448.png",
+    "question": "What letter is inside the yellow square in the top?",
+    "target_phrase": "yellow square in the top",
+    "answer": "D",
+    "target_bbox": [
+      86,
+      14,
+      132,
+      60
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/449.png",
+    "question": "What letter is inside the blue triangle in the top?",
+    "target_phrase": "blue triangle in the top",
+    "answer": "C",
+    "target_bbox": [
+      98,
+      26,
+      140,
+      68
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/450.png",
+    "question": "What color is the rectangle in the top-left?",
+    "target_phrase": "rectangle in the top-left",
+    "answer": "orange",
+    "target_bbox": [
+      27,
+      30,
+      51,
+      54
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/451.png",
+    "question": "What shape is the orange object in the left?",
+    "target_phrase": "orange object in the left",
+    "answer": "square",
+    "target_bbox": [
+      31,
+      93,
+      61,
+      123
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/452.png",
+    "question": "What shape is the blue object in the right?",
+    "target_phrase": "blue object in the right",
+    "answer": "square",
+    "target_bbox": [
+      177,
+      101,
+      203,
+      127
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/453.png",
+    "question": "What letter is inside the orange triangle in the bottom-right?",
+    "target_phrase": "orange triangle in the bottom-right",
+    "answer": "C",
+    "target_bbox": [
+      159,
+      172,
+      207,
+      220
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/454.png",
+    "question": "What shape is the purple object in the top-right?",
+    "target_phrase": "purple object in the top-right",
+    "answer": "circle",
+    "target_bbox": [
+      169,
+      17,
+      207,
+      55
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/455.png",
+    "question": "What shape is the purple object in the bottom-right?",
+    "target_phrase": "purple object in the bottom-right",
+    "answer": "triangle",
+    "target_bbox": [
+      171,
+      170,
+      213,
+      212
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/456.png",
+    "question": "What letter is inside the red rectangle in the top?",
+    "target_phrase": "red rectangle in the top",
+    "answer": "D",
+    "target_bbox": [
+      87,
+      16,
+      121,
+      50
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/457.png",
+    "question": "What digit is inside the yellow rectangle in the top-left?",
+    "target_phrase": "yellow rectangle in the top-left",
+    "answer": "6",
+    "target_bbox": [
+      27,
+      19,
+      57,
+      49
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/458.png",
+    "question": "What shape is the green object in the right?",
+    "target_phrase": "green object in the right",
+    "answer": "rectangle",
+    "target_bbox": [
+      184,
+      96,
+      210,
+      122
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/459.png",
+    "question": "What shape is the blue object in the right?",
+    "target_phrase": "blue object in the right",
+    "answer": "square",
+    "target_bbox": [
+      166,
+      96,
+      190,
+      120
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/460.png",
+    "question": "What digit is inside the purple circle in the left?",
+    "target_phrase": "purple circle in the left",
+    "answer": "1",
+    "target_bbox": [
+      28,
+      101,
+      64,
+      137
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/461.png",
+    "question": "What shape is the purple object in the left?",
+    "target_phrase": "purple object in the left",
+    "answer": "circle",
+    "target_bbox": [
+      7,
+      98,
+      55,
+      146
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/462.png",
+    "question": "What shape is the red object in the bottom?",
+    "target_phrase": "red object in the bottom",
+    "answer": "triangle",
+    "target_bbox": [
+      96,
+      166,
+      122,
+      192
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/463.png",
+    "question": "What letter is inside the purple rectangle in the top-right?",
+    "target_phrase": "purple rectangle in the top-right",
+    "answer": "G",
+    "target_bbox": [
+      165,
+      20,
+      197,
+      52
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/464.png",
+    "question": "What letter is inside the yellow rectangle in the top?",
+    "target_phrase": "yellow rectangle in the top",
+    "answer": "C",
+    "target_bbox": [
+      83,
+      6,
+      125,
+      48
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/465.png",
+    "question": "What digit is inside the red square in the top?",
+    "target_phrase": "red square in the top",
+    "answer": "0",
+    "target_bbox": [
+      105,
+      25,
+      135,
+      55
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/466.png",
+    "question": "What digit is inside the orange rectangle in the bottom-right?",
+    "target_phrase": "orange rectangle in the bottom-right",
+    "answer": "4",
+    "target_bbox": [
+      178,
+      168,
+      210,
+      200
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/467.png",
+    "question": "What letter is inside the blue square in the left?",
+    "target_phrase": "blue square in the left",
+    "answer": "I",
+    "target_bbox": [
+      24,
+      93,
+      66,
+      135
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/468.png",
+    "question": "What letter is inside the red circle in the center?",
+    "target_phrase": "red circle in the center",
+    "answer": "H",
+    "target_bbox": [
+      95,
+      93,
+      121,
+      119
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/469.png",
+    "question": "What digit is inside the red rectangle in the top-left?",
+    "target_phrase": "red rectangle in the top-left",
+    "answer": "1",
+    "target_bbox": [
+      8,
+      17,
+      56,
+      65
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/470.png",
+    "question": "What letter is inside the blue square in the bottom?",
+    "target_phrase": "blue square in the bottom",
+    "answer": "H",
+    "target_bbox": [
+      86,
+      165,
+      126,
+      205
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/471.png",
+    "question": "What letter is inside the orange circle in the bottom-right?",
+    "target_phrase": "orange circle in the bottom-right",
+    "answer": "I",
+    "target_bbox": [
+      176,
+      173,
+      210,
+      207
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/472.png",
+    "question": "What color is the triangle in the left?",
+    "target_phrase": "triangle in the left",
+    "answer": "yellow",
+    "target_bbox": [
+      31,
+      90,
+      63,
+      122
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/473.png",
+    "question": "What letter is inside the purple triangle in the top-right?",
+    "target_phrase": "purple triangle in the top-right",
+    "answer": "F",
+    "target_bbox": [
+      158,
+      18,
+      198,
+      58
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/474.png",
+    "question": "What letter is inside the yellow circle in the top-right?",
+    "target_phrase": "yellow circle in the top-right",
+    "answer": "H",
+    "target_bbox": [
+      180,
+      27,
+      208,
+      55
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/475.png",
+    "question": "What digit is inside the blue square in the bottom-right?",
+    "target_phrase": "blue square in the bottom-right",
+    "answer": "5",
+    "target_bbox": [
+      158,
+      164,
+      204,
+      210
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/476.png",
+    "question": "What shape is the yellow object in the right?",
+    "target_phrase": "yellow object in the right",
+    "answer": "circle",
+    "target_bbox": [
+      179,
+      90,
+      205,
+      116
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/477.png",
+    "question": "What digit is inside the purple circle in the top?",
+    "target_phrase": "purple circle in the top",
+    "answer": "6",
+    "target_bbox": [
+      98,
+      7,
+      144,
+      53
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/478.png",
+    "question": "What letter is inside the purple rectangle in the left?",
+    "target_phrase": "purple rectangle in the left",
+    "answer": "C",
+    "target_bbox": [
+      20,
+      97,
+      64,
+      141
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/479.png",
+    "question": "What color is the rectangle in the right?",
+    "target_phrase": "rectangle in the right",
+    "answer": "blue",
+    "target_bbox": [
+      183,
+      97,
+      209,
+      123
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/480.png",
+    "question": "What letter is inside the purple circle in the top?",
+    "target_phrase": "purple circle in the top",
+    "answer": "C",
+    "target_bbox": [
+      100,
+      35,
+      124,
+      59
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/481.png",
+    "question": "What letter is inside the orange triangle in the right?",
+    "target_phrase": "orange triangle in the right",
+    "answer": "A",
+    "target_bbox": [
+      176,
+      110,
+      200,
+      134
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/482.png",
+    "question": "What letter is inside the green square in the top-left?",
+    "target_phrase": "green square in the top-left",
+    "answer": "A",
+    "target_bbox": [
+      9,
+      22,
+      45,
+      58
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/483.png",
+    "question": "What digit is inside the green rectangle in the right?",
+    "target_phrase": "green rectangle in the right",
+    "answer": "6",
+    "target_bbox": [
+      180,
+      88,
+      210,
+      118
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/484.png",
+    "question": "What color is the triangle in the top-left?",
+    "target_phrase": "triangle in the top-left",
+    "answer": "purple",
+    "target_bbox": [
+      18,
+      17,
+      44,
+      43
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/485.png",
+    "question": "What letter is inside the purple triangle in the center?",
+    "target_phrase": "purple triangle in the center",
+    "answer": "F",
+    "target_bbox": [
+      101,
+      93,
+      125,
+      117
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/486.png",
+    "question": "What letter is inside the blue triangle in the bottom?",
+    "target_phrase": "blue triangle in the bottom",
+    "answer": "D",
+    "target_bbox": [
+      93,
+      160,
+      137,
+      204
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/487.png",
+    "question": "What color is the square in the top-right?",
+    "target_phrase": "square in the top-right",
+    "answer": "orange",
+    "target_bbox": [
+      166,
+      19,
+      202,
+      55
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/488.png",
+    "question": "What letter is inside the blue triangle in the right?",
+    "target_phrase": "blue triangle in the right",
+    "answer": "B",
+    "target_bbox": [
+      177,
+      91,
+      201,
+      115
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/489.png",
+    "question": "What color is the circle in the right?",
+    "target_phrase": "circle in the right",
+    "answer": "blue",
+    "target_bbox": [
+      180,
+      89,
+      214,
+      123
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/490.png",
+    "question": "What shape is the purple object in the bottom-left?",
+    "target_phrase": "purple object in the bottom-left",
+    "answer": "rectangle",
+    "target_bbox": [
+      33,
+      179,
+      57,
+      203
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/491.png",
+    "question": "What shape is the orange object in the bottom?",
+    "target_phrase": "orange object in the bottom",
+    "answer": "triangle",
+    "target_bbox": [
+      103,
+      163,
+      141,
+      201
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/492.png",
+    "question": "What digit is inside the purple triangle in the bottom-left?",
+    "target_phrase": "purple triangle in the bottom-left",
+    "answer": "1",
+    "target_bbox": [
+      10,
+      169,
+      50,
+      209
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/493.png",
+    "question": "What color is the rectangle in the top-right?",
+    "target_phrase": "rectangle in the top-right",
+    "answer": "red",
+    "target_bbox": [
+      158,
+      21,
+      202,
+      65
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/494.png",
+    "question": "What digit is inside the orange rectangle in the bottom-right?",
+    "target_phrase": "orange rectangle in the bottom-right",
+    "answer": "0",
+    "target_bbox": [
+      169,
+      182,
+      199,
+      212
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/495.png",
+    "question": "What color is the triangle in the left?",
+    "target_phrase": "triangle in the left",
+    "answer": "purple",
+    "target_bbox": [
+      33,
+      100,
+      61,
+      128
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/496.png",
+    "question": "What shape is the yellow object in the top?",
+    "target_phrase": "yellow object in the top",
+    "answer": "circle",
+    "target_bbox": [
+      100,
+      20,
+      138,
+      58
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/497.png",
+    "question": "What digit is inside the red triangle in the bottom?",
+    "target_phrase": "red triangle in the bottom",
+    "answer": "3",
+    "target_bbox": [
+      97,
+      160,
+      135,
+      198
+    ],
+    "family": "text"
+  },
+  {
+    "image_path": "data/synthetic/train/498.png",
+    "question": "What shape is the orange object in the left?",
+    "target_phrase": "orange object in the left",
+    "answer": "rectangle",
+    "target_bbox": [
+      10,
+      89,
+      48,
+      127
+    ],
+    "family": "attribute"
+  },
+  {
+    "image_path": "data/synthetic/train/499.png",
+    "question": "What letter is inside the orange circle in the bottom?",
+    "target_phrase": "orange circle in the bottom",
+    "answer": "I",
+    "target_bbox": [
+      94,
+      178,
+      126,
+      210
+    ],
+    "family": "text"
+  }
+]

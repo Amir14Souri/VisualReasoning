@@ -1,0 +1,3608 @@
+{
+  "full": [
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "blue",
+      "gt": "purple",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "i",
+      "gt": "i",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "h",
+      "gt": "h",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "h",
+      "gt": "h",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "square",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "8",
+      "gt": "8",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "rectangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "orange",
+      "gt": "purple",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "square",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "a",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "7",
+      "gt": "7",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "7",
+      "gt": "7",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "red",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "i",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "yellow",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "circle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "square",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "blue",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "green",
+      "gt": "yellow",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "h",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "8",
+      "gt": "8",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "yellow",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "a",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "f",
+      "gt": "f",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "f",
+      "gt": "f",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "8",
+      "gt": "8",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "orange",
+      "gt": "red",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "7",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "9",
+      "gt": "9",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "b",
+      "gt": "d",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "e",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "h",
+      "gt": "h",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "green",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "f",
+      "gt": "f",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "rectangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "square",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "3",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "7",
+      "gt": "7",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "9",
+      "gt": "9",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "b",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "rectangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "purple",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "b",
+      "gt": "i",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "d",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "square",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "9",
+      "gt": "9",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "blue",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    }
+  ],
+  "attention": [
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "i",
+      "gt": "i",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "square",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "h",
+      "gt": "h",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "h",
+      "gt": "h",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "0",
+      "gt": "2",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "8",
+      "gt": "8",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "rectangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "square",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "a",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "orange",
+      "gt": "purple",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "7",
+      "gt": "7",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "7",
+      "gt": "7",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "red",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "rectangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "yellow",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "2",
+      "gt": "4",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "oval",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "g",
+      "gt": "e",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "square",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "black",
+      "gt": "yellow",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "h",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "8",
+      "gt": "8",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "a",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "f",
+      "gt": "f",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "f",
+      "gt": "f",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "8",
+      "gt": "8",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "a",
+      "gt": "d",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "7",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "9",
+      "gt": "9",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "l",
+      "gt": "e",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "h",
+      "gt": "h",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "green",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "rectangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "f",
+      "gt": "f",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "rectangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "7",
+      "gt": "7",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "9",
+      "gt": "9",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "b",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "rectangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "purple",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "b",
+      "gt": "i",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "d",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "square",
+      "gt": "square",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "circle",
+      "gt": "circle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "9",
+      "gt": "9",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "black",
+      "gt": "blue",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    }
+  ],
+  "oracle": [
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "a",
+      "gt": "e",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "blue",
+      "gt": "purple",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "i",
+      "gt": "i",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "blue",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "t",
+      "gt": "e",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "square",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "h",
+      "gt": "h",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "h",
+      "gt": "h",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "0",
+      "gt": "2",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "8",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "square",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "f",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "orange",
+      "gt": "purple",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "square",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "q",
+      "gt": "c",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "a",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "orange",
+      "gt": "purple",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "b",
+      "gt": "c",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "7",
+      "gt": "7",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "7",
+      "gt": "7",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "red",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "rectangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "yellow",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "2",
+      "gt": "4",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "square",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "square",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "g",
+      "gt": "blue",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "black",
+      "gt": "yellow",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "green",
+      "gt": "purple",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "h",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "yellow",
+      "gt": "purple",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "f",
+      "gt": "g",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "8",
+      "gt": "8",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "yellow",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "a",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "6",
+      "gt": "6",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "f",
+      "gt": "f",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "f",
+      "gt": "f",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "7",
+      "gt": "8",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "square",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "square",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "7",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "e",
+      "gt": "e",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "0",
+      "gt": "9",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "black",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "orange",
+      "gt": "orange",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "triangle",
+      "gt": "square",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "6",
+      "gt": "2",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "l",
+      "gt": "e",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "triangle",
+      "gt": "triangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "h",
+      "gt": "d",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "h",
+      "gt": "h",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "green",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "orange",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "circle",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "blue",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "d",
+      "gt": "d",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "5",
+      "gt": "5",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "rectangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "b",
+      "gt": "b",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "f",
+      "gt": "f",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "a",
+      "gt": "a",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "3",
+      "gt": "3",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "square",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "8",
+      "gt": "3",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "7",
+      "gt": "7",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "9",
+      "gt": "9",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "rectangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "b",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "rectangle",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "blue",
+      "gt": "purple",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "4",
+      "gt": "4",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "8",
+      "gt": "i",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "g",
+      "gt": "g",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "1",
+      "gt": "1",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "purple",
+      "gt": "purple",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "0",
+      "gt": "0",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "d",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "c",
+      "gt": "c",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "0",
+      "gt": "5",
+      "correct": false,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "square",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "square",
+      "gt": "square",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "green",
+      "gt": "green",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "2",
+      "gt": "2",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "square",
+      "gt": "circle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "rectangle",
+      "gt": "triangle",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "j",
+      "gt": "j",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "red",
+      "gt": "red",
+      "correct": true,
+      "family": "attribute"
+    },
+    {
+      "pred": "9",
+      "gt": "9",
+      "correct": true,
+      "family": "text"
+    },
+    {
+      "pred": "green",
+      "gt": "blue",
+      "correct": false,
+      "family": "attribute"
+    },
+    {
+      "pred": "yellow",
+      "gt": "yellow",
+      "correct": true,
+      "family": "attribute"
+    }
+  ]
+}

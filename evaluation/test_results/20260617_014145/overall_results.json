@@ -1,0 +1,20 @@
+{
+  "attention": {
+    "Mean IoU": 0.4165692306240089,
+    "IoU@0.3": 0.765,
+    "IoU@0.5": 0.39,
+    "Center-in-Target": 0.905
+  },
+  "random": {
+    "Mean IoU": 0.0025725355185568332,
+    "IoU@0.3": 0.0,
+    "IoU@0.5": 0.0,
+    "Center-in-Target": 0.0
+  },
+  "center": {
+    "Mean IoU": 0.027650000005960466,
+    "IoU@0.3": 0.02,
+    "IoU@0.5": 0.0,
+    "Center-in-Target": 0.14
+  }
+}

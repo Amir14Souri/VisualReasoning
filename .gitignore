@@ -2,7 +2,7 @@ __pycache__/
 */__pycache__/
 .vscode/
 
-data/synthetic/
-training/logs/
-evaluation/*_results/
-downstream/*_results/
+# data/synthetic/
+# training/logs/
+# evaluation/*_results/
+# downstream/*_results/

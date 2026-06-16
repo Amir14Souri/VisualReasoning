@@ -1,0 +1,10 @@
+2026-06-17 01:39:43,508 | INFO | Starting evaluation to tune value of k...
+2026-06-17 01:39:44,102 | INFO | Validation data loader initialized.
+2026-06-17 01:39:47,033 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-17 01:39:57,798 | INFO | k= 1: Avg IoU = 0.1053, Avg CiT = 0.57, IoU@0.3 = 0.03, IoU@0.5 = 0.00
+2026-06-17 01:39:57,841 | INFO | k= 4: Avg IoU = 0.3186, Avg CiT = 0.78, IoU@0.3 = 0.52, IoU@0.5 = 0.20
+2026-06-17 01:39:57,918 | INFO | k= 9: Avg IoU = 0.4149, Avg CiT = 0.90, IoU@0.3 = 0.75, IoU@0.5 = 0.34
+2026-06-17 01:39:58,052 | INFO | k=16: Avg IoU = 0.3306, Avg CiT = 0.88, IoU@0.3 = 0.58, IoU@0.5 = 0.10
+2026-06-17 01:39:58,267 | INFO | k=25: Avg IoU = 0.2430, Avg CiT = 0.61, IoU@0.3 = 0.34, IoU@0.5 = 0.04
+2026-06-17 01:39:58,606 | INFO | k=36: Avg IoU = 0.1508, Avg CiT = 0.32, IoU@0.3 = 0.07, IoU@0.5 = 0.00
+2026-06-17 01:39:58,609 | INFO | Best k=9 | IoU=0.4149
