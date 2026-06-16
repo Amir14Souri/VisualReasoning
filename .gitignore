@@ -5,3 +5,4 @@ __pycache__/
 data/synthetic/
 training/logs/
 evaluation/*_results/
+downstream/*_results/
