@@ -30,20 +30,26 @@ class DownstreamVQAEvaluator:
                 images = sample["images"]
                 questions = sample["questions"]
                 gt_answers = [normalize_answer(a) for a in sample["answers"]]
+                families = sample["families"]
 
-                self._evaluate_full(questions, images, gt_answers)
+                self._evaluate_full(questions, images, gt_answers, families)
                 self._evaluate_attn(
-                    questions, images, sample["target_phrases"], gt_answers, start
+                    questions,
+                    images,
+                    sample["target_phrases"],
+                    gt_answers,
+                    families,
+                    start,
                 )
                 self._evaluate_oracle(
-                    questions, images, sample["bboxes"], gt_answers, start
+                    questions, images, sample["bboxes"], gt_answers, families, start
                 )
                 start += len(sample)
 
         save_json(self.results, self.save_dir / "detailed_results.json")
         return self.results
 
-    def _evaluate_full(self, questions, images, gt_answers):
+    def _evaluate_full(self, questions, images, gt_answers, families):
         prompts = [
             (
                 "Answer the question using only visible evidence.\n"
@@ -54,9 +60,11 @@ class DownstreamVQAEvaluator:
         ]
 
         preds = self.qwen.ask(images, prompts)
-        self._store("full", preds, gt_answers)
+        self._store("full", preds, gt_answers, families)
 
-    def _evaluate_attn(self, questions, images, target_phrases, gt_answers, start_idx):
+    def _evaluate_attn(
+        self, questions, images, target_phrases, gt_answers, families, start_idx
+    ):
         patches, q_feat = self.clip.extract(images, target_phrases)
         heatmaps = self.model(patches, q_feat)
 
@@ -79,9 +87,11 @@ class DownstreamVQAEvaluator:
         ]
 
         preds = self.qwen.ask(boxed_images, prompts)
-        self._store("attention", preds, gt_answers)
+        self._store("attention", preds, gt_answers, families)
 
-    def _evaluate_oracle(self, questions, images, bboxes, gt_answers, start_idx):
+    def _evaluate_oracle(
+        self, questions, images, bboxes, gt_answers, families, start_idx
+    ):
         oracle_images = []
         for idx, (image, bbox) in enumerate(zip(images, bboxes)):
             oracle_image = draw_box(image, bbox)
@@ -101,25 +111,51 @@ class DownstreamVQAEvaluator:
         ]
 
         preds = self.qwen.ask(oracle_images, prompts)
-        self._store("oracle", preds, gt_answers)
+        self._store("oracle", preds, gt_answers, families)
 
-    def _store(self, setting, preds, gt_answers):
-        for pred, gt in zip(preds, gt_answers):
+    def _store(self, setting, preds, gt_answers, families):
+        for pred, gt, family in zip(preds, gt_answers, families):
             pred = normalize_answer(pred)
             self.results[setting].append(
-                {"pred": pred, "gt": gt, "correct": pred == gt}
+                {"pred": pred, "gt": gt, "correct": pred == gt, "family": family}
             )
 
     def print_results(self):
-        print("+" + "-" * 20 + "+")
-        print("|" + "QWEN VQA RESULTS".center(20) + "|")
-        print("+" + "-" * 20 + "+")
-        results = {}
+        settings = ["family/setting", "full", "attention", "oracle"]
+        logging.info(
+            f"You can see overall results in {self.save_dir / 'overall_results.json'} too."
+        )
 
-        for setting in ["full", "attention", "oracle"]:
-            accuracy = np.mean([r["correct"] for r in self.results[setting]]) * 100
-            results[setting] = accuracy
-            print(f"| {setting.upper():<13}{str(round(accuracy, 1)):<4}% |")
-        print("+" + "-" * 20 + "+")
+        logging.info("+" + ("-" * 16 + "+") * 4)
+        logging.info("|" + "|".join([f" {s.upper():^14} " for s in settings]) + "|")
+        logging.info("+" + ("-" * 16 + "+") * 4)
 
-        save_json(results, self.save_dir / "overall_results.json")
+        accuracies = {
+            s: np.mean([r["correct"] for r in self.results[s]]) * 100
+            for s in settings[1:]
+        }
+        save_json(accuracies, self.save_dir / "overall_results.json")
+        self._print_row("overall", accuracies, settings)
+
+        for family in ["attribute", "text"]:
+            subset = {
+                s: [r for r in self.results[s] if r["family"] == family]
+                for s in settings[1:]
+            }
+            accuracies = {
+                s: np.mean([r["correct"] for r in subset[s]]) * 100
+                for s in settings[1:]
+            }
+            self._print_row(family, accuracies, settings)
+
+    def _print_row(self, row, accuracies, settings):
+        row = row.upper()
+        logging.info(
+            "|"
+            + (f" {row:^14} " + "|")
+            + "|".join(
+                [(f"{str(round(accuracies[s], 1))}%").center(16) for s in settings[1:]]
+            )
+            + "|"
+        )
+        logging.info("+" + ("-" * 16 + "+") * 4)

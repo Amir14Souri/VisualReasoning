@@ -1,6 +1,6 @@
 import torch
 import random
-from constants import IMG_SIZE, PATCH_SIZE
+from constants import IMG_SIZE, PATCH_SIZE, SEED
 from PIL import ImageDraw
 
 
@@ -84,6 +84,7 @@ def center_in_target(pred, gt):
 
 
 def random_box():
+    random.seed(SEED)
     w = random.randint(32, 64)
     h = random.randint(32, 64)
     x = random.randint(0, 224 - w)
