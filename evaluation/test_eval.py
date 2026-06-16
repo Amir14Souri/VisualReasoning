@@ -35,9 +35,9 @@ class TestEvaluator:
                 gt_boxes = sample["bboxes"]
                 families = sample["families"]
 
-                patches, qfeat = self.clip.extract(images, sample["target_phrases"])
+                patches, q_feat = self.clip.extract(images, sample["target_phrases"])
 
-                heatmaps = self.model(patches, qfeat)
+                heatmaps = self.model(patches, q_feat)
 
                 for i in range(len(images)):
 

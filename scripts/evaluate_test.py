@@ -41,7 +41,7 @@ if __name__ == "__main__":
         "--batch-size",
         type=int,
         default=16,
-        help="Batch size for validation",
+        help="Batch size for test",
     )
     parser.add_argument(
         "--model-path",

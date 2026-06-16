@@ -33,10 +33,10 @@ class Trainer:
             patches, q_feat = self.clip.extract(
                 sample["images"], sample["target_phrases"]
             )
-            heatmap = self.model(patches, q_feat)
+            heatmaps = self.model(patches, q_feat)
             target = bbox_to_patch_mask(sample["bboxes"]).to(self.device)
 
-            loss = self.loss_fn(heatmap, target)
+            loss = self.loss_fn(heatmaps, target)
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
@@ -54,10 +54,10 @@ class Trainer:
                 patches, q_feat = self.clip.extract(
                     sample["images"], sample["target_phrases"]
                 )
-                heatmap = self.model(patches, q_feat)
+                heatmaps = self.model(patches, q_feat)
                 target = bbox_to_patch_mask(sample["bboxes"]).to(self.device)
 
-                loss = self.loss_fn(heatmap, target)
+                loss = self.loss_fn(heatmaps, target)
                 val_loss += loss.item()
 
         return val_loss / len(val_loader)
