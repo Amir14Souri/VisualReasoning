@@ -4,7 +4,9 @@ import logging
 from tqdm import tqdm
 from datetime import datetime
 from pathlib import Path
+from collections import defaultdict
 
+from constants import save_json
 from data.clip_wrapper import CLIPExtractor
 from evaluation.utils import heatmap_to_bbox, compute_iou, center_in_target, eval_draw
 
@@ -41,6 +43,7 @@ class KTuner:
 
     def evaluate_k(self, all_data, k_values):
         best_k, best_iou = None, 0
+        results = defaultdict(list)
 
         for k in k_values:
             ious = []
@@ -60,6 +63,12 @@ class KTuner:
             iou_at30 = iou_at30_count / len(ious)
             iou_at50 = iou_at50_count / len(ious)
             avg_cit = cit_count / len(ious)
+            results[f"k={k}"] = {
+                "avg_iou": float(avg_iou),
+                "iou_at30": float(iou_at30),
+                "iou_at50": float(iou_at50),
+                "avg_cit": float(avg_cit),
+            }
             logging.info(
                 f"k={k:2d}: Avg IoU = {avg_iou:.4f}, Avg CiT = {avg_cit:.2f}, IoU@0.3 = {iou_at30:.2f}, IoU@0.5 = {iou_at50:.2f}"
             )
@@ -68,6 +77,7 @@ class KTuner:
                 best_iou = avg_iou
                 best_k = k
 
+        save_json(results, self.save_dir / "k_tuning_results.json")
         logging.info(f"Best k={best_k} | IoU={best_iou:.4f}")
         return best_k, best_iou
 

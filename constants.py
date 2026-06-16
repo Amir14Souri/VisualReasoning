@@ -1,5 +1,6 @@
 import torch
 import logging
+import json
 from pathlib import Path
 
 # Seed
@@ -53,3 +54,9 @@ def setup_logging(log_file):
     logging.getLogger("httpcore").setLevel(logging.WARNING)
     logging.getLogger("urllib3").setLevel(logging.WARNING)
     logging.getLogger("requests").setLevel(logging.WARNING)
+
+
+# Saving json
+def save_json(data, path):
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2)
