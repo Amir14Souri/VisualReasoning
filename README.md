@@ -4,12 +4,12 @@ The provided model learns to localize answer-relevant image regions from VQA att
 
 + [Pipeline](#pipeline)
 + [AttentionBoxer Model Architecture](#attentionboxer-model-architecture)
-+ [Heatmap to Bounding Box](heatmap-to-bounding-box)
++ [Heatmap to Bounding Box](#heatmap-to-bounding-box)
 + [Report](#report)
 
 ## Pipeline
 
-**It is recommended to run scripts in the following order to have a complete experience of the project.** You could also use the synthesized datasets and trained `final_model.pth` to to run the evaluations only, and see the results.
+**It is recommended to run scripts in the following order to have a complete experience of the project.** You could also use the synthesized datasets and trained `final_model.pth` to run the evaluations only, and see the results.
 
 **Note:** All the arguments have default values and you can skip them, except for the `-k` in evaluation scripts. It is recommended to set it to `best_k` value obtained from the `tune_k` script.
 
@@ -33,13 +33,13 @@ Trains a model that predicts heatmaps directly from input image patch embeddings
 python -m scripts.train_attn_boxer.py --batch-size 16 --lr 1e-3 --weight-decay 1e-4 --num-epochs 30 --save-dir training/logs
 ```
 
-**Note:** Additional to the `best_model.pth` saved in `save_dir` for each training process, a `final_model.pth` is also saved in the project's root directory.
+**Note:** Additional to the `best_model.pth` saved in `--save-dir` for each training process, a `final_model.pth` is also saved in the project's root directory.
 
 ---
 
-### 3. Tune the Heatmap Threshold (`k`)
+### 3. Tune the Heatmap Hyper-Parameter (`k`)
 
-Searches for the best threshold parameter used during heatmap-to-bounding-box conversion. The exact applied rule is mentioned at the end.
+Searches for the best hyper-parameter used during heatmap-to-bounding-box conversion. The exact applied rule is mentioned at the end.
 
 ```bash
 python -m scripts.tune_k.py --batch-size 16 --model-path final_model.pth --save-dir evaluation/val_results
@@ -49,7 +49,7 @@ python -m scripts.tune_k.py --batch-size 16 --model-path final_model.pth --save-
 
 ### 4. Evaluate on the Test Set
 
-Evaluates localization performance using the trained model and tuned threshold on the test dataset. It also preforms a comparison between the model, random box baseline, and center box baseline overally and per question family. Reported metrics are **Mean IoU**, **IoU@0.3**, **IoU@0.5**, and **center-in-target**.
+Evaluates localization performance using the trained model and tuned hyper-parameter on the test dataset. It also preforms a comparison between the model, random box baseline, and center box baseline overally and per question family. Reported metrics are **Mean IoU**, **IoU@0.3**, **IoU@0.5**, and **center-in-target**.
 
 ```bash
 python -m scripts.evaluate_test.py -k 9 --batch-size 16 --model-path final_model.pth --save-dir evaluation/test_results
