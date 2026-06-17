@@ -1,0 +1,14 @@
+accelerate==1.14.0
+huggingface_hub==1.19.0
+matplotlib==3.11.0
+numpy==2.4.6
+pandas==3.0.3
+pillow==12.2.0
+pyparsing==3.3.2
+PyYAML==6.0.3
+regex==2026.5.9
+safetensors==0.8.0
+tokenizers==0.22.2
+torch==2.5.1  # 2.5.1+cu121 if using cuda
+tqdm==4.68.2
+transformers==5.12.0

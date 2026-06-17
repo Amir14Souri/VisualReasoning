@@ -13,6 +13,26 @@ The provided model learns to localize answer-relevant image regions from VQA att
 
 **Note:** All the arguments have default values and you can skip them, except for the `-k` in evaluation scripts. It is recommended to set it to `best_k` value obtained from the `tune_k` script.
 
+> First, install the requirements.
+> 
+> You can optionally create a python virtual-env or conda env to avoid possible conflicts:
+>
+> ```bash
+> python -m venv .venv
+> source .venv/bin/activate
+> 
+> # OR
+> 
+> conda create -n <name> python=3.12 --no-default-packages
+> conda activate <name>
+> ```
+>
+> Then, install requirements with this command:
+> 
+> ```
+> pip install -r requirements.txt
+> ```
+
 ---
 
 ### 1. Generate Training Data
