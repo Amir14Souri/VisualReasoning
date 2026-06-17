@@ -2,11 +2,18 @@
 
 The provided model learns to localize answer-relevant image regions from VQA attention maps and converts them into bounding boxes for visual grounding and downstream evaluation.
 
++ [Pipeline](#pipeline)
++ [AttentionBoxer Model Architecture](#attentionboxer-model-architecture)
++ [Heatmap to Bounding Box](heatmap-to-bounding-box)
++ [Report](#report)
+
 ## Pipeline
 
 **It is recommended to run scripts in the following order to have a complete experience of the project.** You could also use the synthesized datasets and trained `final_model.pth` to to run the evaluations only, and see the results.
 
 **Note:** All the arguments have default values and you can skip them, except for the `-k` in evaluation scripts. It is recommended to set it to `best_k` value obtained from the `tune_k` script.
+
+---
 
 ### 1. Generate Training Data
 
@@ -58,7 +65,27 @@ Evaluates the effect of the predicted regions on downstream VQA performance. `Qw
 python -m scripts.evaluate_vqa.py -k 9 --batch-size 16 --model-path final_model.pth --save-dir downstream/vqa_results
 ```
 
----
+
+## AttentionBoxer Model Architecture
+
+This model is a simple attention module. It has a dimension `dim`, and two linear projections: One converting dimension of question (`text_dim`) to `dim`, and the other converting image patches dimenstion concatenated with coordination dimension (`vision_dim` + `coord_dim`) to `dim`.
+
+In its forward pass, coordinations of each patch is concatenated with the patch embedding, then they are projected to create Key matrix. Question features are projected to create Query matrix. Then attention is applied and normalized attention weights are returned as predicted heatmaps.
+
+Loss function used in training tries to combine soft loss Binary Cross-Entropy (BCE) and higher-level region overlapping DiceLoss. Denoting the predicted per-patch heatmap with $H$ and the patch-level binary mask (pathces set to 1 if overlapping with ground-truth bounding-box), loss function is defined as below.
+
+$$L_{BCE}(H, M) = -\frac{1}{N} \sum_{i=1}^N M_i \log{H_i} + (1 - M_i) \log{(1 - H_i)}$$
+$$L_{Dice}(H, M) = 1 - \frac{2 \sum_{i=1}^N H_i M_i + \epsilon}{\sum_{i=1}^N H_i + \sum_{i=1}^N M_i + \epsilon}$$
+$$L(H, M) = L_{BCE}(H, M) + 0.5 L_{Dice}(H, M)$$
+
+**Note:** Initially, I tried more complicated structures, including:
++ \[LinearProj + ReLU + LinearProj\] for query and key matrices projection
++ Multiplying attention weights by projected value matrix before returning
++ Applying \[LinearProj + Non-Linearity (ReLU or GELU) + LinearProj\] on attention unnormalized weights
++ AdamW optimizer instead of Adam
+
+But they didn't make any improvement in decreasing training or validation loss values. Some of them even resulted in more gap between two loss curves, so they caused overfitting even by adding Dropout after non-linearity layers. So finally, I came up with the simple solution and a small weight decay for Adam optimizer to avoid overfitting.
+
 
 ## Heatmap to Bounding Box
 
